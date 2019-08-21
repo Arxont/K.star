@@ -45,6 +45,7 @@
   color: grey;
   font-size: 21px;  
 }
+
 .body_txt{
     color: white;
     font-size: 29px;
@@ -81,6 +82,7 @@
 .header_bottom{
     height: 20%;
     width: 100%;
+    margin: 2% 0 2% 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -129,6 +131,7 @@ padding: 2.5% 0 2.5% 0;
 .it_staff_list_item{
 display: flex;
 padding-bottom: 2.5%;
+text-align: start;
 }
 .it_staff_img{
 height: 92px;
@@ -246,18 +249,16 @@ display: flex;
 justify-content: space-around;
 }
 .contacts_wrapper{
-width: 40%;
-position: relative;
-background-color: aqua;
+width: 48%;
 }
 
 .contacts_list{
-    right: 0;
-    position: absolute;
+text-align: end;
     list-style: none;
 }
 .address_list{
 list-style: none;
+text-align: start;
 }
 
 @media (max-width: 575px) {
@@ -266,9 +267,23 @@ list-style: none;
         align-items: center;
         justify-content: center;
         height: 100%;
+        font-size: 15px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    .contacts{
+        width: 100%;
+    }
+    .body_company_name, .body_txt, .body_txt2{
+        font-size: 15px;
     }
     .header_bottom {
       display: none;
+    }
+    .work_with{
+        font-size: 25px;
     }
     .giant_font{
         font-size: 50px;
@@ -289,8 +304,63 @@ flex-direction: column;
 height: 100%;
 width: 100%;
     }
+.qq{
+    height: 100%;
+} 
+.glider_content{
+    height: 100%;
+}
 .client_card{
     display: none;
+}
+.specialist_buble{
+    position: absolute;
+    width: 159px;
+    height: 159px;
+    background-color: orangered;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buble_txt{
+text-align: center;
+}
+.specialist_img{
+    height: 327px;
+    width: 312px;
+    margin: auto;
+    position: absolute;
+    left: 44px;
+}
+.specialist_txt{
+position: absolute;
+height: 2em;
+bottom: 220px;
+text-align: center;
+width: 100%;
+}
+.specialist_txt > p{
+    margin: 0;
+}
+.specialist_info_list{
+    background-color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    height: 100px;
+    position: absolute;
+    bottom: 100px;
+}
+.footer_title{
+    width: 100%;
+}
+.footer_subTitle{
+    width: 100%;
 }
 
   }
