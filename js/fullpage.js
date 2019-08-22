@@ -114,7 +114,7 @@
             navigationPosition: 'right',
             navigationTooltips: [],
             showActiveTooltip: false,
-            slidesNavigation: false,
+            slidesNavigation: true,
             slidesNavPosition: 'bottom',
             scrollBar: false,
             hybrid: false,
@@ -153,7 +153,7 @@
             recordHistory: true,
 
             //design
-            controlArrows: true,
+            controlArrows: false,
             controlArrowColor: '#fff',
             verticalCentered: true,
             sectionsColor : [],

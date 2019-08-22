@@ -1,4 +1,6 @@
-
+.slider_content{
+    text-align: center;
+} 
 .header_container{
     display: flex;
     height: 80%;
@@ -144,37 +146,14 @@ width: 100%;
     height: 100%;
 }
 
-.section_wrapper{
-    display: flex;
-    justify-content: space-between;
-}
-.slider_card, .client_card{
-    width: 45%;
-    height: 100%;
-    margin: auto;
-}
-.slider_container{
-    background-color: white;
-    margin: auto;
+.reviews{
+    height: 80%;
     width: 80%;
 }
-
-.qq{
-    height: 500px;
-    width: 60%;
+.clients{
+    height: 80%;
+    width: 50%;
     margin: auto;
-    /*background-image: url("../img/Screenshot_12.png"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-}
-.glider_content{
-    height: 500px;
-    width: 100%;
-}
-.clients_img{
-height: 500px;    
 }
 
 .specialist_card{
@@ -262,6 +241,9 @@ text-align: start;
 }
 
 @media (max-width: 575px) {
+    body{
+        font-size: 15px;
+    }
     .header_container{
         flex-direction: column;
         align-items: center;
@@ -297,22 +279,7 @@ text-align: start;
     .body_img_container{
         display: none;
     }
-    .section_wrapper{
-flex-direction: column;
-    }
-    .slider_card{
-height: 100%;
-width: 100%;
-    }
-.qq{
-    height: 100%;
-} 
-.glider_content{
-    height: 100%;
-}
-.client_card{
-    display: none;
-}
+    
 .specialist_buble{
     position: absolute;
     width: 159px;

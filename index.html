@@ -16,7 +16,6 @@
       href="https://unpkg.com/normalize.css@8.0.0/normalize.css"
     />
     <link rel="stylesheet" href="./css/fullpage.css" />
-    <link rel="stylesheet" href="./css/glider.min.css" />
     <link rel="stylesheet" href="./css/flexbox.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <style type="text/css"></style>
@@ -104,45 +103,29 @@
 </div>
 
                 </div>
-                <div class="section">
-                        <div class="container">
-                                <div class="row center-xl center-xs center-md center-sm center-xs">
-                                  <div class="col-xl-11 col-xs-11">
-
-<div class="section_wrapper">
-                    <div class="slider_card">
+                <div class="section slider_content">
                     <p class="orange_color">ОТЗЫВЫ:</p>
-                    <div class="slider_container">
-                    <div class="glider-contain">
-                        <div class="glider">
-                            <div class="qq">
-                                <img class="glider_content" src="./img/Screenshot_12.png"/>
-                            </div>
-                            <div class="qq">
-                                    <img class="glider_content" src="./img/Screenshot_12.png"/>
-                                </div>
-                                <div class="qq">
-                                        <img class="glider_content" src="./img/Screenshot_12.png"/>
-                                    </div>                       
-                        </div>                     
-                        <button role="button" aria-label="Previous" class="glider-prev">«</button>
-                        <button role="button" aria-label="Next" class="glider-next">»</button>
-                        <div role="tablist" class="dots"></div>
-                      </div>   
-                    </div>      
-                </div>
-                <div class="client_card">
-                        <p class="orange_color">Любимые клиенты:</p>
-                         <img class="clients_img" src="./img/clients.png"/>                        
-                    </div> 
-                    
-                </div> 
-                </div>
-                </div>
-                </div>    
+                        <div class="slide" data-anchor="slide1">
+                                <img class="reviews" src="./img/Screenshot_12.png"/>
+                        </div>
+                        <div class="slide" data-anchor="slide2">
+                                <img class="reviews" src="./img/27.png"/>
+                        </div>
+                        <div class="slide" data-anchor="slide3">
+                                <img class="reviews" src="./img/28.png"/>
+                        </div>
+            </div>
+            <div class="section slider_content">
+                    <p class="orange_color">ЛЮБИМЫЕ КЛИЕНТЫ:</p>
+                    <div class="slide" data-anchor="slide1">
+                            <img class="clients" src="./img/clients.png"/>
+                    </div>
+                    <div class="slide" data-anchor="slide2">
+                            <img class="clients" src="./img/clients.png"/>
+                    </div>
             </div>
             <div class="section">
-                    <div class="slide" data-anchor="slide1">
+                    <div class="slide" data-anchor="slide4">
                         
                         <div class="specialist_card">
                             <div class="specialist_buble">
@@ -166,7 +149,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="slide" data-anchor="slide1"><div class="specialist_card">
+                    <div class="slide" data-anchor="slide5"><div class="specialist_card">
                             <div class="specialist_buble">
                                 <p class="buble_txt">800+<br>
                                Закрытых вакансий его подразделениями<br>
@@ -218,11 +201,10 @@
             </div>
             
         <script src="./js/fullpage.js"></script>
-        <script src="./js/glider.min.js"></script>
         <script src="./js/main.js"></script>
         <script type="text/javascript">
             var myFullpage = new fullpage('#fullpage', {
-                sectionsColor: ['rgb(22,37,56)', 'white', 'white', 'white', 'rgb(22,37,56)', 'white']
+                sectionsColor: ['rgb(22,37,56)', 'white', 'white', 'white', 'white', 'rgb(22,37,56)', 'white']
             });
         </script>
       </body>
