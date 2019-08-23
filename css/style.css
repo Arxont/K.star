@@ -8,11 +8,16 @@
     text-align: center;
 } 
 
+.orange_color{
+    color: orangered;
+}
+
 .header_container{
   width: 100%;
   height: 80%;
   display: flex;  
 }
+
 .header_menu{
     width: 70%;
     height: 100%;
@@ -20,7 +25,8 @@
 .menu_head{
    display: flex;
    justify-content: space-between; 
-   width: 100%; 
+   width: 100%;
+   margin-top: 2%; 
 }
 .logo{
     background-color: white;
@@ -37,7 +43,7 @@
 .contacts_border{
     border-bottom-style: solid;
     border-bottom-width: 0.5px;
-    border-color: white;
+    border-color: blue;
 }
 
 .contacts_info{
@@ -53,6 +59,9 @@
     width: 30%;
     height: 100%;
 }
+.mobile_img{
+    display: none;
+}
 .menu_title{
     color: grey;
     font-size: 32px;
@@ -64,31 +73,81 @@
 .header_subTitle_font{
 font-size: 20px;
 }
+
+.header_button{
+background-color: transparent;
+border: none;
+cursor: pointer;
+}
+.header_button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+button:focus { 
+    outline: none;
+ }
 .header_bottom{
     width: 100%;
     height: 20%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .header_bottom_card{
     width: 25%;
     height: 80%;
 }
-
-.orange_color{
-    color: orangered;
+@media (max-width: 575px){
+    .header_container{
+        flex-direction: column;
+    }
+    .header_menu{
+        width: 100%;
+    }
+    .logo{
+        height: 50px;
+        width: 50px;
+    }
+    .menu_title{
+        font-size: 15px;
+    }
+    .menu_subTitle{
+        font-size: 20px;
+    }
+    .header_subTitle_font{
+        font-size: 12px;
+    }
+    .q1{
+        height: 20px;
+    }
+    .contacts_info{
+        font-size: 15px;
+    }
+    .mobile_button_container{
+        display: flex;
+    }
+    .mobile_img{
+        display: block;
+        width: 50%;
+        height: 150px;
+    }
+    .side_img{
+        display: none;
+    }
 }
+
+
 .contract_title{
     font-size: 40px;
     text-align: center;
-    
+    height: 15%;
     margin: 0;
 }
 .contract_txt_container{
 display: flex;
 width: 80%;
 margin: auto;
+height: 45%;
 }
 .huge_txt{
     font-size: 300px;
@@ -96,10 +155,10 @@ margin: auto;
     text-align: center;
 }
 .background_img_container{
-   width: 70%; 
+width: 70%; 
 background-image: url("../img/4.png");
 background-repeat: no-repeat;
-background-size: cover;
+background-size: initial;
 display: flex;
 align-items: center;
 text-align: start;
@@ -111,14 +170,16 @@ text-align: start;
     font-size: 42px;
 }
 .list_container{
-height: 30%;
+height: 40%;
 display: flex;
 font-size: 20px;
 width: 100%;
 margin: auto;
 text-align: start;
 }
-
+.mobile_contract_txt{
+display: none;
+}
 
 .list_img1, .list_img2{
 height: 92px;
@@ -126,12 +187,43 @@ width: 92px;
 display: block;
 margin: 5px 5px 5px 0;
 }
+@media (max-width: 575px){
+    .testo{
+        padding: 0;
+    }
+    .contract_title{
+        font-size: 20px;
+    }
+    .mobile_contract_txt{
+        display: block;
+        height: 40%;
+        text-align: center;
 
-.work_with{
-    font-size: 50px;
+    }
+    .contract_txt_container{
+        display: none;
+    }
+    .img_container_txt_font,.img_container_txt_font2{
+        font-size: 20px;
+    }
+    
+    .list_img1, .list_img2{
+        height: 45%;
+        
+    }
 }
+
+.work_title{
+    font-size: 50px;
+    height: 15%;
+    margin: 0;
+    text-align: center;
+}
+
 .it_staff_container{
- display: flex;   
+ display: flex;
+ height: 85%; 
+ align-items: center;  
 }
 .it_staff_list{
     list-style: none;
@@ -152,17 +244,58 @@ width: 100%;
 .body_img{
     height: 100%;
 }
+@media (max-width: 575px){
+    .work_title{
+        font-size: 20px;
+        height: 10%;
+    }
+    .it_staff_container{
+        flex-direction: column;
+        height: 90%;
+        
+    }
+    .it_staff_img{
+        height: 50px;
+        width: 50px;
+    }
+    .it_staff_list{
+height: 60%;
+margin: 0;
+    }
+    .body_img_container{
+    display: none;
+    }
+}
+.reviews_title{
+text-align: center;
+font-size: 60px;
+height: 10%;
+margin: 0;
+}
 
 .reviews{
-    height: 80%;
-    width: 80%;
+    height: 50%;
+    width: 50%;
+    margin-bottom: 10%;
 }
+.clients_title{
+    text-align: center;
+    font-size: 60px;
+    height: 10%;
+    margin: 0;  
+}
+
 .clients{
     height: 80%;
     width: 50%;
     margin: auto;
 }
 
+@media (max-width: 575px){
+    .reviews_title, .clients_title{
+        font-size: 20px;
+    } 
+}
 .specialist_card{
     width:400px;
     height:550px;
@@ -209,132 +342,61 @@ width: 100%;
     position: absolute;
     bottom: 0;
 }
-.footer_title{
-    font-size: 31px;
-    width: 60%;
-    margin: auto;
-    text-align: center;
+
+.footer_img{
+    height: 19%;
 }
-.footer_subTitle{
-display: block;
-width: 60%;
-text-align: center;
-margin: auto;
-}
-.footer_button_container{
+.footer_container{
+height: 40%;
 display: flex;
-justify-content: space-around;
+flex-direction: column;
+justify-content: center;
 }
-.footer_button{
-    margin: auto;
-    width: 40%;
-    height: 100px;
+.footer_txt{
+    font-size: 31px;
+    margin: 0;
 }
 .contacts_container{
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
+height: 40%;
+background-color: grey;
+}
+.bottom_button_margin{
+margin:10px 0px 10px;
 }
 .contacts_wrapper{
-width: 48%;
+width: 49.9%;
+background-color: #EFF3FF;
 }
-
+.contacts_title{
+    font-size: 29px;
+    text-align: end;
+    padding-right: 10px;
+}
 .contacts_list{
 text-align: end;
-    list-style: none;
+    padding-right: 10px;
+    color: gray;
+    font-size: 19px;
+}
+.address_title{
+    font-size: 29px;
+    text-align: start;
+padding-left: 10px;
 }
 .address_list{
-list-style: none;
+    font-size: 19px;
+    color: gray;
 text-align: start;
+padding-left: 10px;
 }
 
-@media (max-width: 575px) {
-    body{
-        font-size: 15px;
-    }
-    .header_container{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        font-size: 15px;
-    }
-    .logo{
-        width: 50px;
-        height: 50px;
-    }
-    .contacts{
-        width: 100%;
-    }
-    .body_company_name, .body_txt, .body_txt2{
-        font-size: 15px;
-    }
-    .header_bottom {
-      display: none;
-    }
-    .work_with{
-        font-size: 25px;
-    }
-    .giant_font{
-        font-size: 50px;
-    }
-    .list_container{
-        width: 100%;
-    }
-    .it_staff_container{
-        flex-direction: column;
-    }
-    .body_img_container{
+@media (max-width: 575px){
+    .footer_img{
         display: none;
     }
-    
-.specialist_buble{
-    position: absolute;
-    width: 159px;
-    height: 159px;
-    background-color: orangered;
-    border-radius: 50%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    font-size: 13px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .footer_txt{
+        font-size: 20px;
+    }
 }
-.buble_txt{
-text-align: center;
-}
-.specialist_img{
-    height: 327px;
-    width: 312px;
-    margin: auto;
-    position: absolute;
-    left: 44px;
-}
-.specialist_txt{
-position: absolute;
-height: 2em;
-bottom: 220px;
-text-align: center;
-width: 100%;
-}
-.specialist_txt > p{
-    margin: 0;
-}
-.specialist_info_list{
-    background-color: white;
-    border-radius: 20px;
-    font-size: 15px;
-    height: 100px;
-    position: absolute;
-    bottom: 100px;
-}
-.footer_title{
-    width: 100%;
-}
-.footer_subTitle{
-    width: 100%;
-}
-
-  }
