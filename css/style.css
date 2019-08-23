@@ -125,6 +125,7 @@ button:focus {
     }
     .mobile_button_container{
         display: flex;
+        align-items: center;
     }
     .mobile_img{
         display: block;
