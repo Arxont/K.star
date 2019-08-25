@@ -121,7 +121,7 @@
      margin: 0 auto !important;
  }
  .fp-slidesNav.fp-bottom {
-     bottom: 17px;
+     bottom: 0px; /* def value -17px*/
  }
  .fp-slidesNav.fp-top {
      top: 17px;
