@@ -686,12 +686,10 @@ margin: auto;
   }
 }
 
-/*
+
 @media (max-height: 575px) {
   .section {
     height: auto !important;
-    padding: 2%;
   }
   
 }
-*/
