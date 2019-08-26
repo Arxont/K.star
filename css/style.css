@@ -340,7 +340,7 @@ display: flex;
 }
 .it_staff_list {
   list-style: none;
-  padding-left: 10px;
+  padding-left: 0;
 }
 .it_staff_list_item {
   display: flex;
@@ -400,7 +400,7 @@ display: flex;
   }
   .it_staff_list {
     height: 60%;
-    padding-left: 10px;
+    padding-left: 0;
   }
   .body_img_container {
     height: 50%;
