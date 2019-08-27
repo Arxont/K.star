@@ -142,7 +142,7 @@ margin-bottom: 50px;
     display: none;
   }
   .contacts_info {
-    font-size: 15px;
+    font-size: 25px;
   }
   .menu_subTitle {
     font-size: 29px;
@@ -834,9 +834,11 @@ height: 50px;
 }
 
 
-@media (max-height: 500px) {
+@media (max-height: 600px) {
   .section {
     height: auto !important;
+   /* min-height: 600px; */
+    overflow: hidden;
   }
   
 
