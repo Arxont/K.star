@@ -18,6 +18,19 @@
 
 <body>
   <div id="fullpage">
+      <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <form method="POST" action="https://formspree.io/hanterokun@gmail.com">
+              <input type="email" name="email" placeholder="Your email">
+              <textarea name="message" placeholder="Test Message"></textarea>
+              <button type="submit">Send Test</button>
+            </form>
+          </div>
+        
+        </div>
     <div class="section">
       <div class="container">
         <div class="row ">
@@ -30,9 +43,9 @@
             <img class="logo" src="./img/logo.png" alt="img" />
             <div class="contacts">
               <span class="contacts_border"><img class="q1" src="./img/phone.png" alt="img" /><span
-                  class="contacts_info">+7(499)1367564&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                  class="contacts_info">+7(499)1367564&nbsp;</span>
                 <img class="q1" src="./img/mail.png" alt="img" /><span class="contacts_info">r@star-staff.ru
-                  &nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+                  &nbsp;</span></span>
             </div>
           </div>
           <div class="header_body">
@@ -45,7 +58,7 @@
                 <p class="menu_subTitle header_subTitle_font">
                   ПОЛНОСТЬЮ СООТВЕТСТВУЮЩЕГО ВАШЕМУ ВЫБОРУ
                 </p>
-                <button class="submit_button" type="button">
+                <button class="submit_button" id="myBtn" type="button">
                     <img class="button_img" src="./img/headerButton.png" alt="img" />
                   </button>
               </div>
@@ -429,9 +442,21 @@
         </p>
         <p class="section_6_subTitle orange_color">Уже через двое суток!</p>
       </div>
+
+    </div>
+  </div>
+  </div>
+  <div class="footer_background">
+    
+
+      <div class="container">
+          <div class="row ">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+
       <div class="section_6_footer">
         <div class="footer_button_wrapper">
-          <button class="submit_button footer_button" type="button">
+          <button class="submit_button footer_button" id="myBtn" type="button">
             <img class="button_img" src="./img/headerButton.png" alt="img" />
           </button>
         </div>
@@ -452,10 +477,13 @@
         </div>
       </div>
 
+            </div>
+            </div>
+            </div>
+    </div>
 
-</div>
-</div>
-</div>
+
+
     </div>
     <script src="./js/fullpage.js"></script>
     <script src="./js/main.js"></script>

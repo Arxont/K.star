@@ -13,6 +13,49 @@ body {
   color: #ff7400;
 }
 
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
 /*    section 1      */
 .header_container {
   width: 100%;
@@ -142,7 +185,7 @@ margin-bottom: 50px;
     display: none;
   }
   .contacts_info {
-    font-size: 25px;
+    font-size: 20px;
   }
   .menu_subTitle {
     font-size: 29px;
@@ -173,7 +216,7 @@ margin-bottom: 0;
     width: 22px;
   }
   .contacts_info {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .menu_subTitle {
@@ -768,10 +811,10 @@ margin: auto;
 .section_6_subTitle {
   font-size: 41px;
 }
-.section_6_footer {
+
+.footer_background{
   height: 50%;
   background-color: #eff3ff;
-  margin: 0 -2.5% 0;
 }
 .footer_button_wrapper{
   display: -webkit-box;
