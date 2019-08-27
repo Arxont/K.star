@@ -832,11 +832,10 @@ height: 50px;
   }
 }
 
-/*
-@media (max-height: 575px) {
+
+@media (max-height: 400px) {
   .section {
     height: auto !important;
   }
   
 }
-*/
