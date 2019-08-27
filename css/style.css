@@ -153,6 +153,9 @@ display: flex;
   .header_subTitle_font {
     font-size: 13px;
   }
+  .mobile_section_1_wrapper{
+margin-bottom: 0;
+  }
 }
 
 
@@ -193,6 +196,7 @@ display: flex;
     display: -ms-flexbox;
     display: flex;
     width: 100%;
+    margin-bottom: 25px;
   }
   .header_body {
     display: block;
@@ -828,10 +832,11 @@ height: 50px;
   }
 }
 
-
+/*
 @media (max-height: 575px) {
   .section {
     height: auto !important;
   }
   
 }
+*/
