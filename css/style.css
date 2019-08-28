@@ -366,7 +366,7 @@ height: 120px;
   margin-left: 20px;
 }
 .section_2_list > li {
-  padding: 20px 0 20px;
+  padding: 20px 0 0;
 }
 
 @media (max-width: 992px) {
