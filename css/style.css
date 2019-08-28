@@ -559,7 +559,7 @@ button:focus {
 .review_card{
     background-color: #EEF3FE;
     position: relative;
-    font-size: 13px;
+    font-size: 15px;
     text-align: initial;
     width: 80%;
     max-height: 30%;
@@ -816,8 +816,10 @@ font-weight: 700;
 .footer_background {
   background-image: url("../img/vacancyBackground.jpg");
   background-size: cover;
+  /*
   -webkit-box-shadow: inset 0 0 0 1000px rgba(12, 28, 102, 0.9);
   box-shadow: inset 0 0 0 1000px rgba(46, 49, 63, 0.9);
+  */
 }
 
 .section_6_body {
@@ -825,7 +827,6 @@ font-weight: 700;
 }
 .section_6_title {
   font-size: 31px;
-  color: white;
 }
 .section_6_subTitle {
   font-size: 41px;
