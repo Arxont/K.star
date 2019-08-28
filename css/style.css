@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserat", Arial, sans-serif;
+  font-family: 'Pacifico', cursive;
 }
 .section {
   padding: 2.5% 0 2.5%;
@@ -664,6 +664,7 @@ font-weight: 700;
   }*/
   .review_body {
     padding-top: 40px;
+    font-family: 'Pacifico', cursive;
   }
   .review_author,
   .review_author_info {
