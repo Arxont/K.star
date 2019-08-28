@@ -1,5 +1,5 @@
 body {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 .section {
   padding: 2.5% 0 2.5%;
@@ -16,7 +16,6 @@ body {
   display: none;
   position: fixed;
   z-index: 2;
-  padding-top: 100px;
   left: 0;
   top: 0;
   width: 100%;
@@ -589,6 +588,7 @@ button:focus {
     padding: 60px 10px 10px;
     text-align: start;
     width: 100%;
+    font-family: 'Pacifico', cursive;
 }
 .review_author_container{
 display: -webkit-box;
