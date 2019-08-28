@@ -567,7 +567,7 @@ button:focus {
 .review_card{
     background-color: #EEF3FE;
     position: relative;
-    font-size: 15px;
+    font-size: 18px;
     text-align: initial;
     width: 80%;
     max-height: 30%;
@@ -597,7 +597,6 @@ button:focus {
     text-align: start;
     width: 100%;
     font-family: 'Caveat', cursive;
-    font-weight: 100;
 }
 .review_author_container{
 display: -webkit-box;
@@ -854,7 +853,9 @@ font-weight: 700;
   position: relative;
   height: 100px;
 }
-
+.section_6_footer{
+  width: 100%;
+}
 .footer_info_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
