@@ -567,7 +567,7 @@ button:focus {
 .review_card{
     background-color: #EEF3FE;
     position: relative;
-    font-size: 18px;
+    font-size: 13px;
     text-align: initial;
     width: 80%;
     max-height: 30%;
