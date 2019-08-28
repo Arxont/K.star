@@ -457,6 +457,10 @@ height: 120px;
   -ms-flex-align: center;
   align-items: center;
 }
+.it_staff_img {
+  height: 98px;
+  width: 98px;
+}
 .it_staff_list {
   list-style: none;
   padding-left: 0;
