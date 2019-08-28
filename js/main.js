@@ -1,3 +1,4 @@
+
 var modal = document.getElementById("myModal");
 var btn = document.getElementsByClassName("myBtn");
 var span = document.getElementsByClassName("close")[0];
@@ -15,3 +16,4 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 };
+

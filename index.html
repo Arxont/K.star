@@ -20,12 +20,15 @@
   </head>
 
   <body>
-      <div id="myModal" class="modal">
+      <div id="myModal" class="modal" aria-hidden="true">
+        
           <div class="modal-content">
               <p class="close">&times;</p>
               <div class="modal_img_container">
              
             </div>
+            <p class="modal_title orange_color">Найдем специалиста в мгновение ока!</p>
+            <p class="modal_subtitle">Напишите свои контактные данные и мы свяжемся с вами</p>
             <form
               class="send_form"
               method="POST"
@@ -35,9 +38,10 @@
               <input type="text" name="name" placeholder="Имя" />
               <input type="tel" name="tel" placeholder="Номер телефона" />
               <textarea name="message" placeholder="Вакансия"></textarea>
-              <button type="submit">Отправить письмо</button>
+              <button class="modal_button" type="submit">Отправить письмо</button>
             </form>
           </div>
+       
         </div>
     <div id="fullpage">
       <div class="section">
@@ -74,13 +78,13 @@
                         <p class="menu_subTitle header_subTitle_font">
                           ПОЛНОСТЬЮ СООТВЕТСТВУЮЩЕГО ВАШЕМУ ВЫБОРУ
                         </p>
-                        <button class="myBtn submit_button" id="myBtn" type="button">
-                          <img
-                            class="button_img"
-                            src="./img/headerButton.png"
-                            alt="img"
-                          />
-                        </button>
+                        <button
+                        class="myBtn open-overlay submit_button footer_button"
+                        id="myBtn"
+                        type="button"
+                      >
+                       <div class="button_content">Связаться с нами</div>
+                      </button>
                         
                       </div>
                       <img
@@ -152,7 +156,7 @@
         <div class="container">
           <div class="row ">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <p class="work_title">
+              <p class="work_title title_padding">
                 <span class="orange_color"
                   >Работайте с профессионалами в поиске</span
                 >
@@ -197,7 +201,7 @@
         <div class="container">
           <div class="row ">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <p class="reviews_title orange_color">ОТЗЫВЫ:</p>
+              <p class="reviews_title title_padding orange_color">ОТЗЫВЫ:</p>
 
                   
            
@@ -215,11 +219,14 @@
               -самые позитивные."
             </p>
             <div class="review_author_container">
-              <p class="review_author">Александр Негруца</p>
-              <div class="review_author_info">
-                <p class="review_author_post">Исполнительный Директор</p>
-                <p class="review_author_misc"><span class="misc_name">Alpina Digital</span> <a class="misc_link" href="https://alpinadigital.ru" target="_blank">https://alpinadigital.ru</a></p>
-              </div>
+                <div class="author_column_1">
+                    <p class="review_author">Александр Негруца</p>
+                    <p>Исполнительный Директор</p>
+                  </div>
+                  <div class="author_column_2">
+                    <p class="review_author_position">Alpina Digital</p>
+                    <p><a class="misc_link" href="https://alpinadigital.ru" target="_blank">https://alpinadigital.ru</a></p>
+                  </div>
             </div>
           </div>
 
@@ -229,11 +236,14 @@
               "Ребята находят тех, кто мне действительно нужен, а не тех, кого я думаю что, хочу"
             </p>
             <div class="review_author_container">
-              <p class="review_author">Валентин Ливкин</p>
-              <div class="review_author_info">
-                <p class="review_author_post">СТО</p>
-                <p class="review_author_misc">Icolab</p>
-              </div>
+                <div class="author_column_1">
+                    <p class="review_author">Валентин Ливкин</p>
+                    <p>СТО</p>
+                  </div>
+                  <div class="author_column_2">
+                    <p class="review_author_position">Icolab</p>
+                  </div>
+    
             </div>
           </div>
           <div class="review_card">
@@ -246,11 +256,15 @@
                 Starr-staff и сконцентрироваться на развитии бизнесса."
               </p>
             <div class="review_author_container">
-              <p class="review_author">Зябрев Кирилл</p>
-              <div class="review_author_info">
-                <p class="review_author_post">Исполнительный Директор</p>
-              <p class="review_author_misc"><span class="misc_name">IntTerra</span> <a class="misc_link" href="https://www.intterragroup.com/" target="_blank">www.intterragroup.com</a></p>
-              </div>
+                <div class="author_column_1">
+                    <p class="review_author">Зябрев Кирилл</p>
+                    <p>Исполнительный Директор</p>
+                  </div>
+                  <div class="author_column_2">
+                    <p class="review_author_position">IntTerra</p>
+                    <p><a class="misc_link" href="https://www.intterragroup.com/" target="_blank">www.intterragroup.com</a></p>
+                  </div>
+
             </div>
           </div>
 
@@ -266,11 +280,14 @@
                     Мы работаем со Star-Staff уже второй год. За время сотрудничества мы смогли расширить свою команду разработки в сторону фронтенда и бэкенда. Больше всего нравится чуткость и отзывчивость всех членов команды Star-Staff с самого начала выстраивания процесса работы. Мы смогли выстроить четкую стратегию взаимодействия, что значительно сократило время на организацию встреч и потока обратной связи. Учитывая специфику вакансий и нашего проекта – это весьма ценно. Рекрутеры всегда на связи и всегда «включены» в ситуацию, стараются узнать все нюансы, очень внимательны. Star-Staff для нас надежный партнер, на которого можно положиться, и мы готовы смело рекомендовать ребят коллегам.»
                 </p>
                 <div class="review_author_container">
-                  <p class="review_author">Анастасия Туча</p>
-                  <div class="review_author_info">
-                    <p class="review_author_post">HR</p>
-                    <p class="review_author_misc"><span class="misc_name">Homeapp</span> <a class="misc_link" href="https://homeapp.ru/" target="_blank"> homeapp.ru</a></p>
-                  </div>
+                    <div class="author_column_1">
+                        <p class="review_author">Анастасия Туча</p>
+                        <p>HR</p>
+                      </div>
+                      <div class="author_column_2">
+                        <p class="review_author_position">Homeapp</p>
+                        <p><a class="misc_link" href="https://homeapp.ru/" target="_blank"> homeapp.ru</a></p>
+                      </div>
                 </div>
               </div>
               <div class="review_card">
@@ -279,11 +296,15 @@
                   «Вы лучше всех других HR-агентств! (Мы проверяли)»
                  </p>
               <div class="review_author_container">
-                <p class="review_author">Александр Горник</p>
-                <div class="review_author_info">
-                  <p class="review_author_post">CEO</p>
-                  <p class="review_author_misc"><span class="misc_name">Mindbox</span> <a class="misc_link" href="https://mindbox.ru/" target="_blank"> mindbox.ru</a></p>
-                </div>
+                  <div class="author_column_1">
+                      <p class="review_author">Александр Горник</p>
+                      <p>CEO</p>
+                    </div>
+                    <div class="author_column_2">
+                      <p class="review_author_position">Mindbox</p>
+                      <p><a class="misc_link" href="https://mindbox.ru/" target="_blank"> mindbox.ru</a></p>
+                    </div>
+  
               </div>
             </div>
             <div class="review_card">
@@ -292,11 +313,15 @@
                     «С командой Start-Staff удалось всего за несколько недель закрыть вакансию ReactNative разработчика, при среднем времени поиска своими силами в несколько месяцев. Разработчик уже вышел на работу и даже превзошел наши ожидания! Будем работать и дальше!»
                    </p>
                 <div class="review_author_container">
-                  <p class="review_author">Александр Маслов </p>
-                  <div class="review_author_info">
-                    <p class="review_author_post">TeamLead разработки</p>
-                    <p class="review_author_misc"><span class="misc_name">Seendex</span> <a class="misc_link" href="https://www.seendex.ru/" target="_blank">www.seendex.ru</a></p>
-                  </div>
+                    <div class="author_column_1">
+                        <p class="review_author">Александр Маслов</p>
+                        <p>TeamLead разработки</p>
+                      </div>
+                      <div class="author_column_2">
+                        <p class="review_author_position">Seendex</p>
+                        <p><a class="misc_link" href="https://www.seendex.ru/" target="_blank">www.seendex.ru</a></p>
+                      </div>
+                  
                 </div>
               </div>
         
@@ -309,11 +334,15 @@
                   <p class="review_body">
                       «В первый раз работа с ребятами из Star-Staff не заладилась, но они очень попросили дать им второй шанс, я согласился и не пожалел ни на минуту. Ребята уже помогли нам найти несколько талантливых сотрудников в команду, они никогда не сдаются, даже когда от нас поступает практически невыполнимый запрос (а мы крайне сложные клиенты, хочу заметить). Это одно из немногих агентств на рынке, которое не сухо ищет вам сотрудников, а забоится о своих клиентах, пытается до мелочей понять потребности и профиль кандидатов, и все это происходит в приятной дружеской атмосфере. Это очень ценно, и, надеюсь, они не растеряют это по мере роста. В общем, работать с ними одно удовольствие!»</p>
                   <div class="review_author_container">
-                    <p class="review_author">Егор Хмелев</p>
-                    <div class="review_author_info">
-                      <p class="review_author_post">CTO</p>
-                      <p class="review_author_misc"><span class="misc_name">SweatCoin</span> <a class="misc_link" href="https://sweatco.in/" target="_blank">sweatco.in</a></p>
-                    </div>
+                      <div class="author_column_1">
+                          <p class="review_author">Егор Хмелев</p>
+                          <p>CTO</p>
+                        </div>
+                        <div class="author_column_2">
+                          <p class="review_author_position">SweatCoin</p>
+                          <p><a class="misc_link" href="https://sweatco.in/" target="_blank">sweatco.in</a></p>
+                        </div>
+                    
                   </div>
                 </div>
                 <div class="review_card">
@@ -322,11 +351,15 @@
                     «Большое спасибо за ваш суперпрофессионализм! Надеюсь на продолжение совместной работы в будущем!»
                   </p>
                 <div class="review_author_container">
-                  <p class="review_author">Андрей Калинин</p>
-                  <div class="review_author_info">
-                    <p class="review_author_post">Технический директор</p>
-                    <p class="review_author_misc"><span class="misc_name">iBolit</span> <a class="misc_link" href="https://ibolit.pro/" target="_blank">ibolit.pro</a></p>
-                  </div>
+                    <div class="author_column_1">
+                        <p class="review_author">Андрей Калинин</p>
+                        <p>Технический директор</p>
+                      </div>
+                      <div class="author_column_2">
+                        <p class="review_author_position">iBolit</p>
+                        <p><a class="misc_link" href="https://ibolit.pro/" target="_blank">ibolit.pro</a></p>
+                      </div>
+          
                 </div>
               </div>
               <div class="review_card">
@@ -334,11 +367,15 @@
                   <p class="review_body">
                       Очень нравится, как вы ищете кандидатов. Хочу сказать, что вы делаете работу лучше «***HR». Я ценю то, что вы для нас (PimPay) делаете и для меня в том числе.»</p>
                   <div class="review_author_container">
-                    <p class="review_author">Семён Спиридонов</p>
-                    <div class="review_author_info">
-                      <p class="review_author_post">DevOps Teamlead</p>
-                      <p class="review_author_misc"><span class="misc_name">PimPay</span> <a class="misc_link" href="https://pimpay.ru/" target="_blank">pimpay.ru</a></p>
-                    </div>
+                      <div class="author_column_1">
+                          <p class="review_author">Семён Спиридонов</p>
+                          <p>DevOps Teamlead</p>
+                        </div>
+                        <div class="author_column_2">
+                          <p class="review_author_position">PimPay</p>
+                          <p><a class="misc_link" href="https://pimpay.ru/" target="_blank">pimpay.ru</a></p>
+                        </div>
+
                   </div>
                 </div>
           </div>
@@ -352,7 +389,7 @@
         <div class="container">
           <div class="row ">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <p class="clients_title">
+              <p class="clients_title title_padding">
                 ЛЮБИМЫЕ <span class="orange_color">КЛИЕНТЫ</span>
               </p>
               <div class="slide" data-anchor="slide1">
@@ -380,7 +417,7 @@
         <div class="container">
           <div class="row ">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <p class="specialist_title">Наши специалисты</p>
+              <p class="specialist_title title_padding">Наши специалисты</p>
               <div class="slide" data-anchor="slide4">
                 <div class="specialist_container">
                   <div class="specialist_card">
@@ -512,11 +549,11 @@
         <div class="container">
           <div class="row ">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <div class="clients_container">
+                <div class="footer_container">
 
 
               <div class="section_6_body">
-                <p class="section_6_title">
+                <p class="section_6_title title_padding">
                   Мы предоставим вам первых кандидатов на вакансию
                 </p>
                 <button
@@ -524,11 +561,7 @@
                       id="myBtn"
                       type="button"
                     >
-                      <img
-                        class="button_img"
-                        src="./img/headerButton.png"
-                        alt="img"
-                      />
+                     <div class="button_content">Связаться с нами</div>
                     </button>
                 <p class="section_6_subTitle orange_color">
                   Уже через двое суток!
