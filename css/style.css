@@ -434,6 +434,7 @@ button:focus {
   font-size: 50px;
   margin: 0;
   text-align: center;
+  padding-bottom: 2.5%;
 }
 
 .it_staff_container {
