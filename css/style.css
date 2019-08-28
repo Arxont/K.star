@@ -567,7 +567,7 @@ button:focus {
 .review_card{
     background-color: #EEF3FE;
     position: relative;
-    font-size: 13px;
+    font-size:  1,05 em;
     text-align: initial;
     width: 80%;
     max-height: 30%;
@@ -800,7 +800,7 @@ font-weight: 700;
 }
 .specialist_position {
   color: #ff7400;
-  font-size: 15px;
+  font-size: 20px;
 }
 .specialist_skills {
   background-color: white;
@@ -808,6 +808,7 @@ font-weight: 700;
   border-radius: 10px;
   font-size: 15px;
   min-height: 132px;
+  padding-right: 10px;
 }
 .specialist_skills > li {
   color: #ff7400;
