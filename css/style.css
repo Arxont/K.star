@@ -154,6 +154,9 @@ background-repeat: no-repeat;
 button:focus {
   outline: none;
 }
+.button_img{
+height: 100px;
+}
 .header_bottom {
   width: 100%;
   margin-top:2%;
@@ -263,6 +266,7 @@ button:focus {
   }
   .button_img {
     width: 100%;
+
   }
   .header_body_img {
     display: block;
