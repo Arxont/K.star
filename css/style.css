@@ -173,6 +173,7 @@ font-weight:700;
   border-style: solid;
   border-color: white;
   border-radius: 15px;
+  margin: 2%;
 }
 .submit_button:hover {
   -webkit-transform: scale(1.1);
@@ -263,6 +264,13 @@ button:focus {
 }
 
 @media (max-width: 575px) {
+
+  .button_content{
+width: 100px;
+height: 50px;
+margin: 5px;
+font-size: 10px;
+  }
   .header_menu {
     width: 100%;
   }
@@ -608,6 +616,7 @@ button:focus {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-around;
+  align-items: center;
 }
 .review_img {
   width: 60px;
@@ -622,7 +631,7 @@ button:focus {
   width: 80%;
   max-height: 30%;
   border-radius: 10px;
-  margin: auto;
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -828,6 +837,10 @@ button:focus {
 @media (max-width: 575px) {
   .specialist_title {
     font-size: 15px;
+  }
+
+  .specialist_card{
+    display: none;
   }
 }
 /* section 7*/
