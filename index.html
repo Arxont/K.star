@@ -28,11 +28,11 @@
       </div>
       <p class="modal_title orange_color">Найдем специалиста в мгновение ока!</p>
       <p class="modal_subtitle">Напишите свои контактные данные и мы свяжемся с вами</p>
-      <form class="send_form" method="POST" action="https://formspree.io/hanterokun@gmail.com">
-        <input type="email" name="email" placeholder="Почта" />
-        <input type="text" name="name" placeholder="Имя" />
-        <input type="tel" name="tel" placeholder="Номер телефона" />
-        <textarea name="message" placeholder="Вакансия"></textarea>
+      <form class="send_form"  action="send.php" method="POST">
+        <input type="email" name="user_email" placeholder="Почта" />
+        <input type="text" name="user_name" placeholder="Имя" />
+        <input type="tel" name="user_phone" placeholder="Номер телефона" />
+        <textarea name="user_vacancy" placeholder="Вакансия"></textarea>
         <button class="modal_button" type="submit">Отправить письмо</button>
       </form>
     </div>
