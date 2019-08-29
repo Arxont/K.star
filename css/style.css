@@ -794,46 +794,10 @@ button:focus {
   width: 350px;
   height: 350px;
   margin: auto;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
 }
 
-.klimovskiy {
-  background-image: url("../img/K4ALOSDJ.png");
-}
-.serikov {
-  background-image: url("../img/Ecicqc1k.png");
-}
-.specialist_blob {
-  position: absolute;
-  width: 130px;
-  height: 130px;
-  left: 0;
-  top: 0;
-  background-color: #ff7400;
-  border-radius: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.specialist_blob > p {
-  margin-top: 0;
-  text-align: center;
-}
-.blob_title {
-  color: white;
-  font-size: 15px;
-}
-.blob_body {
-  color: white;
-  font-size: 10px;
-}
-.blob_footer {
-  font-size: 10px;
-}
+
+
 .specialist_name {
   color: white;
   font-size: 22px;
