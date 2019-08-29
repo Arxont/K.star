@@ -914,14 +914,42 @@ font-size: 10px;
   .title_padding{
     padding: 1% 0 1%;
   }
+
+
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .header_menu {
+    width: 100%;
+  }
+  .q1 {
+    height: 40pxl;
+    width: 42px;
+  }
+  .contacts_info {
+    font-size: 20px;
+  }
+  .menu_subTitle {
+    font-size: 29px;
+    margin-top: 0;
+  }
+  .menu_title {
+    font-size: 21px;
+  }
+  .header_subTitle_font {
+    font-size: 13px;
+  }
+  .mobile_section_1_wrapper {
+    margin-bottom: 0;
+  }
   
   .button_content{
 width: 340px;
 height: 100px;
   }
-  .section_1_footer{
-    display: none;
-  }
+ 
   .review_img{
     height: 40px;
     width: 40px;
