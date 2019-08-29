@@ -794,6 +794,9 @@ button:focus {
   width: 350px;
   height: 350px;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
