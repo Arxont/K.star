@@ -1,3 +1,21 @@
+var myFullpage = new fullpage("#fullpage", {
+  sectionsColor: [
+    "rgb(22,37,56)",
+    "white",
+    "white",
+    "white",
+    "white",
+    "rgb(22,37,56)",
+    "white"
+  ],
+  responsiveHeight: 600,
+  responsiveWidth: 600,
+  normalScrollElements: '.modal'
+});
+
+
+
+
 
 var modal = document.getElementById("myModal");
 var btn = document.getElementsByClassName("myBtn");
