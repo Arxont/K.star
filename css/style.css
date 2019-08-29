@@ -53,6 +53,7 @@ body {
 text-align:center;
 font-size:30px;
 font-weight:700;
+margin-top: 0;
 }
 .modal_subtitle{
   font-size:15px;
@@ -61,12 +62,17 @@ font-weight:700;
 .send_form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 20px;
 }
 .send_form > * {
   margin: 10px;
   background-color: azure;
   border-radius: 5px;
+  width: 90%;
+}
+textarea{
+  height: 50px;
 }
 .modal_button {
   color: white;
@@ -74,7 +80,44 @@ font-weight:700;
   border-radius: 10px;
   font-weight: 700;
   height: 50px;
+  width: 250px;
+  margin: auto;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  transition: .2s ease-in-out;
 }
+
+
+.modal_button:before {
+  content: "";
+  background: linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.5));
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: -8px;
+  left: -200px;
+  transform: skewX(-45deg);
+}
+.modal_button:hover {
+  background: #fe6637;
+  color: #fff;
+}
+.modal_button:hover:before {
+  left: 250px;
+  transition: .5s ease-in-out;
+}
+
+
+
+
+
+
+
 .close {
   color: black;
   font-size: 28px;
