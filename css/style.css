@@ -528,11 +528,10 @@ display: none;
   height: 90%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .specialist_card {
-  height: 100%;
-  width: 30%;
-  min-height: 600px;
+  width: 30%; 
 }
 
 .specialist_img_container {
@@ -726,7 +725,7 @@ height: 100px;
 width: 100%;
   }
   .title_padding{
-    font-size: 16px;
+    font-size: 20px;
   }
   .section_1_container{
     height: 100%;
@@ -746,7 +745,7 @@ width: 100%;
     width: 20px;
   }
   .contacts_info{
-    font-size: 15px;
+    font-size: 13px;
   }
   .side_img{
     display: none;
@@ -834,9 +833,7 @@ height: 50px;
   .section_3_txt{
     padding-left: 5px;
   }
-  .section_4_container{
-    height: auto;
-  }
+  
   .hide_mobile{
     display: none;
   }
@@ -865,7 +862,7 @@ height: 50px;
 height: 100px;
   }
   .specialist_card{
-    width: 100%;
+    width: 80%;
   }
   .specialist_img{
     width: 100px;
@@ -873,7 +870,7 @@ height: 100px;
   }
   .specialist_skills{
 font-size: 13px;
-min-height: 100px;
+
 width: 80%;
     margin: auto;
   }
