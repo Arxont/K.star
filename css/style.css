@@ -793,7 +793,7 @@ width: 100%;
     width: 20px;
   }
   .contacts_info{
-    font-size: 13px;
+    font-size: 15px;
   }
   .side_img{
     display: none;
@@ -807,7 +807,7 @@ width: 100%;
     font-size: 20px;
   }
   .header_subTitle_font{
-    font-size:10px;
+    font-size:15px;
   }
   .section_1_button_container{
     display: -webkit-box;
@@ -853,10 +853,10 @@ margin: 5px;
     font-size: 15px;
   }
   .section_2_txt2{
-    font-size:13px;
+    font-size:15px;
   }
   .list_container{
-    font-size: 10px;
+    font-size: 15px;
   }
   .list_img {
     height: 50px;
@@ -869,7 +869,7 @@ margin: 5px;
             flex-direction: column;
   }
   .section_3_list{
-    font-size:9px;
+    font-size:15px;
   }
   .section_3_img{
 width: 50px;
@@ -904,17 +904,17 @@ height: 50px;
   }
   .review_body{
     padding-top: 20px;
-    font-size: 10px;
+    font-size: 15px;
   }
   .author_column_1 > p {
     margin: 0;
     margin-bottom: 5px;
-    font-size: 10px;
+    font-size: 15px;
   }
   .author_column_2 > p {
     margin: 0;
     margin-bottom: 5px;
-    font-size: 10px;
+    font-size: 15px;
   }
   .section_5_img{
 height: 100px;
@@ -927,7 +927,7 @@ height: 100px;
     height: 200px;
   }
   .specialist_skills{
-font-size: 13px;
+font-size: 15px;
 
 width: 80%;
     margin: auto;
@@ -942,6 +942,6 @@ width: 80%;
     font-size: 20px;
   }
   .section_7_footer_txt{
-    font-size: 10px;
+    font-size: 15px;
   }
 }
