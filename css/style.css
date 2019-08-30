@@ -364,7 +364,7 @@ display: none;
   height: 92px;
   width: 92px;
 }
-.list_container {
+.section_2_list_container {
   font-size: 20px;
   padding-left: 30px;
 }
@@ -685,14 +685,7 @@ display: none;
   /* color: #6471b0;*/
   color: white;
 }
-/*
-@media (max-height: 300px) {
-  .section {
-    height: auto !important;
-    min-height: 600px !important;
-  }
-}
-*/
+
 @media (max-height: 1100px) {
   .title_padding{
     padding: 1% 0 1%;
@@ -738,7 +731,7 @@ height: 100px;
     width: 40px;
   }
   .review_body{
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 13px;
   }
   .author_column_1 > p {
@@ -760,8 +753,21 @@ height: 100px;
     width:200px;
   }
 }
-
-@media (max-width: 575px){
+@media (max-width: 1200px){
+  .hide_mobile{
+    display: block;
+  }
+  .hide_tablet{
+    display: none;
+  }
+.huge_txt{
+  font-size: 250px;
+}
+.specialist_card{
+  width: 40%;
+}
+}
+@media (max-width: 767px){
   .modal-content{
 width: 100%;
   }
@@ -854,8 +860,11 @@ margin: 5px;
   .section_2_txt2{
     font-size:15px;
   }
-  .list_container{
+  .section_2_list_container{
     font-size: 15px;
+  }
+  .section_2_list > li {
+    padding: 10px 0 0;
   }
   .list_img {
     height: 50px;
@@ -944,3 +953,4 @@ width: 80%;
     font-size: 15px;
   }
 }
+
