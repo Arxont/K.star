@@ -233,7 +233,7 @@ textarea{
   border-style: solid;
   border-color: white;
   border-radius: 15px;
-  margin: 2%;
+  margin: 2% 0 2%;
 }
 .submit_button:hover {
   -webkit-transform: scale(1.1);
