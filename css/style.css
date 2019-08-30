@@ -403,7 +403,7 @@ display: none;
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 2.5%;
-  text-align: start;
+  
 }
 
 .section_3_txt {
@@ -875,6 +875,7 @@ margin: 5px;
 width: 50px;
 height: 50px;
   }
+  
   .section_3_body_img_container{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -888,7 +889,7 @@ height: 50px;
     height: 200px;
   }
   .section_3_txt{
-    padding-left: 5px;
+    width: 80%;
   }
   
   .hide_mobile{
