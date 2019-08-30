@@ -450,7 +450,6 @@ display: none;
   position: relative;
   text-align: initial;
   width: 80%;
-  max-height: 30%;
   border-radius: 10px;
   margin: 0;
   display: -webkit-box;
@@ -909,12 +908,12 @@ height: 50px;
   .author_column_1 > p {
     margin: 0;
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 13px;
   }
   .author_column_2 > p {
     margin: 0;
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 13px;
   }
   .section_5_img{
 height: 100px;
