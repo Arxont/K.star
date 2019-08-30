@@ -647,7 +647,7 @@ display: none;
 @media (max-height: 300px) {
   .section {
     height: auto !important;
-    min-height: 600px;
+    min-height: 600px !important;
   }
 }
 
