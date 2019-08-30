@@ -643,15 +643,13 @@ display: none;
   /* color: #6471b0;*/
   color: white;
 }
-/*
-@media (max-height: 600px) {
+
+@media (max-height: 300px) {
   .section {
     height: auto !important;
-
-    overflow: hidden;
   }
 }
-*/
+
 @media (max-height: 1100px) {
   .title_padding{
     padding: 1% 0 1%;
