@@ -871,6 +871,8 @@ height: 100px;
   .specialist_skills{
 font-size: 13px;
 min-height: 100px;
+width: 80%;
+    margin: auto;
   }
   .section_7_container {
   height: 100%;
