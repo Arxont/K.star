@@ -650,14 +650,14 @@ font-size: 10px;
   padding: 10px;
 }
 .review_img {
-  width: 80px;
-  height: 60px;
+  width: 60px;
+  height: 40px;
   position: absolute;
   left: 10px;
   top: -10px;
 }
 .review_body {
-  padding: 60px 10px 10px;
+  padding: 40px 10px 10px;
   text-align: start;
   width: 100%;
   font-size: 15px;
@@ -682,10 +682,12 @@ font-size: 10px;
 .author_column_1 > p {
   margin: 0;
   margin-bottom: 5px;
+  font-size: 18px;
 }
 .author_column_2 > p {
   margin: 0;
   margin-bottom: 5px;
+  font-size: 18px;
 }
 .review_author_post {
   font-weight: 700;
@@ -809,11 +811,11 @@ font-size: 10px;
 }
 .specialist_name {
   color: white;
-  font-size: 22px;
+  font-size: 18px;
 }
 .specialist_position {
   color: #ff7400;
-  font-size: 20px;
+  font-size: 16px;
   height: 50px;
 }
 .specialist_skills {
