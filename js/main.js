@@ -8,8 +8,8 @@ var myFullpage = new fullpage("#fullpage", {
     "rgb(22,37,56)",
     "white"
   ],
-  responsiveHeight: 600,
-  responsiveWidth: 600,
+/*  responsiveHeight: 600,
+  responsiveWidth: 600, */
   normalScrollElements: '.modal',
 });
 
