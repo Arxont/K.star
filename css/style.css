@@ -232,6 +232,9 @@ textarea{
 .header_subTitle_font {
   font-size: 20px;
 }
+.section_1_body{
+  display:flex;
+}
 .section_1_body_img {
   display: none;
 }
@@ -803,6 +806,9 @@ height: 100px;
     width: 50px;
     height: 50px;
   }
+  .contacts{
+justify-content: initial; 
+  }
   .q1{
     height: 20px;
     width: 20px;
@@ -824,11 +830,7 @@ height: 100px;
   .header_subTitle_font{
     font-size:15px;
   }
-  .section_1_button_container{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
+  
   .submit_button{
     height: 70px;
   }
@@ -840,8 +842,7 @@ margin: 5px;
   }
   .section_1_body_img{
     display: block;
-    width: 133px;
-    height: 133px;
+    width: 50%;
   }
   .section_1_footer{
     display: none;
