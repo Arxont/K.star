@@ -25,6 +25,7 @@ body {
   padding: 2.5% 0 2.5%;
   margin: 0;
   text-align: center;
+  font-size: 40px;
 }
 
 .modal {
@@ -758,11 +759,12 @@ height: 100px;
 }
 }
 @media (max-width: 767px){
+  /*
   .container{
-    position: absolute; /*possible workaround*/
+    position: absolute; possible workaround
     width: 100%;
   }
- 
+ */
   .modal {
     position: fixed;
     z-index: 2;
