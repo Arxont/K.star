@@ -5,7 +5,8 @@ body {
   opacity: 0;
 }
 .fp-scroller{
-  height: auto;
+  min-height: 100%;
+  position: relative;
 }
 .section {
   padding: 2.5% 0 2.5%;
@@ -217,7 +218,6 @@ textarea{
 }
 .side_img {
   width: 30%;
-  height: 100%;
 }
 
 .menu_title {
@@ -755,6 +755,10 @@ height: 100px;
 }
 }
 @media (max-width: 767px){
+  .container{
+    position: absolute; /*possible workaround*/
+    width: 100%;
+  }
  
   .modal {
     position: fixed;
@@ -977,11 +981,5 @@ width: 80%;
   }
   .section_7_footer_txt{
     font-size: 15px;
-  }
-}
-
-@media (max-height: 400px){
-  .section{
-    height: fit-content !important;
   }
 }
