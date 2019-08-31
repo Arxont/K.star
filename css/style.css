@@ -741,12 +741,7 @@ height: 100px;
   }
 }
 @media (max-width: 1200px){
-  .hide_mobile{
-    display: block;
-  }
-  .hide_tablet{
-    display: none;
-  }
+  
 .huge_txt{
   font-size: 250px;
 }
@@ -899,16 +894,13 @@ height: 50px;
             justify-content: center;
   }
   .section_3_body_img{
-    width: 200px;
-    height: 200px;
+    display: none;
   }
   .section_3_txt{
     width: 80%;
   }
   
-  .hide_mobile{
-    display: none;
-  }
+  
   .review_card{
     margin: 10px;
   }
@@ -930,8 +922,18 @@ height: 50px;
     margin-bottom: 5px;
     font-size: 13px;
   }
+
+  .section_4_container{
+    height: fit-content;
+    margin-bottom: 50px;
+  }
   .section_5_img{
 height: 100px;
+  }
+  .section_6_container{
+    flex-wrap:wrap;
+    height: fit-content;
+    margin-bottom: 100px;
   }
   .specialist_card{
     width: 80%;
