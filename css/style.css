@@ -1,7 +1,9 @@
 body {
   font-family: "Noto Sans SC", sans-serif;
 }
-
+.iScrollIndicator{
+  opacity: 0;
+}
 .fp-scroller{
   height: auto;
 }
@@ -735,10 +737,7 @@ height: 100px;
     margin-bottom: 5px;
     font-size:12px;
   }
-  .section_5_img{
-    width: 35%;
-    height: 120px;
-  } 
+   
   .specialist_img{
     height: 200px;
     width:200px;
@@ -938,7 +937,7 @@ height: 50px;
     margin-bottom: 50px;
   }
   .section_5_img{
-height: 100px;
+height: auto;
   }
   .section_6_container{
     height: fit-content;
