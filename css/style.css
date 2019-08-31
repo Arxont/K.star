@@ -4,6 +4,10 @@ body {
 .iScrollIndicator{
   opacity: 0;
 }
+.fp-scroller {
+  overflow: hidden;
+  min-height: 100%;
+}
 
 .section {
   padding: 2.5% 0 2.5%;
@@ -775,12 +779,9 @@ height: 100px;
 }
 }
 @media (max-width: 767px){
-  /*
-  .container{
-    position: absolute; possible workaround
-    width: 100%;
-  }
- */
+  
+  
+ 
   .modal {
     position: fixed;
     z-index: 2;
