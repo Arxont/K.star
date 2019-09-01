@@ -15,10 +15,16 @@ var myFullpage = new fullpage("#fullpage", {
 
 
 
+function openNav() {
+  document.getElementById("modal").style.height = "100%";
+}
 
-
-var modal = document.getElementById("myModal");
-var btn = document.getElementsByClassName("myBtn");
+function closeNav() {
+  document.getElementById("modal").style.height = "0%";
+}
+/*
+var modal = document.getElementById("Modal");
+var btn = document.getElementsByClassName("Btn");
 var span = document.getElementsByClassName("close")[0];
 const body = document.body;
 btn[0].onclick = function() {
@@ -39,4 +45,5 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 };
+*/
 
