@@ -3,7 +3,7 @@ body {
 }
 
 .iScrollIndicator{
-  opacity: 0;
+ opacity: 0;
 }
 .fp-scroller {
   overflow: hidden;
@@ -557,7 +557,7 @@ display: none;
 
 .section_5_img {
   width: 40%;
-  height: 150px;
+  
 }
 
 /* section 6*/
