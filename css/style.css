@@ -934,7 +934,7 @@ height: 50px;
             justify-content: center;
   }
   .section_3_body_img{
-    display: none;
+    width: 150px;
   }
   .section_3_txt{
     width: 80%;
