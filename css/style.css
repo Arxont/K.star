@@ -793,7 +793,29 @@ width: 340px;
 height: 100px;
   }
  
-  
+  .review_img{
+    height: 40px;
+    width: 40px;
+  }
+  .review_body{
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .author_column_1 > p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size:12px;
+  }
+  .author_column_2 > p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size:12px;
+  }
+   
+  .specialist_img{
+    height: 200px;
+    width:200px;
+  }
 }
 
 @media (max-width: 1200px){
