@@ -13,10 +13,10 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+/*
 .section {
   padding: 2.5% 0 2.5%;
-}
+}*/
 .slider_content {
   text-align: center;
 }
@@ -28,7 +28,7 @@ body {
   color:white;
 }
 .title_padding {
-  padding: 2.5% 0 2.5%;
+ /* padding: 2.5% 0 2.5%;*/
   margin: 0;
   text-align: center;
   font-size: 40px;
@@ -168,7 +168,7 @@ textarea{
 /*    section 1      */
 .section_1_container {
   width: 100%;
-
+height: 100%;;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,6 +177,9 @@ textarea{
 .header_menu {
   width: 70%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .section_1_header {
   display: -webkit-box;
@@ -310,7 +313,7 @@ display: none;
 }
 
 .advantages_card{
-  height: 200px;
+  height: 150px;
   width: 60%;
   display: flex;
   justify-content: space-between;
@@ -321,7 +324,7 @@ align-items: center;
 }
 .advantages_txt{
   text-align: start;
-  width: 60%;
+  width: 90%;
   margin: 0;
   font-weight: 700;
   font-size: 20px;
@@ -332,7 +335,7 @@ align-items: center;
   height: 50%;
   display: flex;
   align-self: flex-end;
-  border-radius: 5px;
+  border-radius: 5px 0 5px;
   background-color: #ff7400;
   background-repeat: no-repeat;
   background-size: contain;
@@ -644,11 +647,16 @@ align-items: center;
 }
 .specialist_name {
   font-size: 18px;
+  margin-bottom:0;
 }
 .specialist_position {
   color: #ff7400;
   font-size: 16px;
   height: 50px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .specialist_skills {
   background-color: white;
@@ -754,7 +762,7 @@ align-items: center;
 
 @media (max-height: 1100px) {
   .title_padding{
-    padding: 1% 0 1%;
+  /*  padding: 1% 0 1%;*/
   }
 
 
@@ -814,6 +822,14 @@ height: 100px;
   .specialist_img{
     height: 200px;
     width:200px;
+  }
+}
+@media (max-height: 700px){
+  .title_padding{
+    font-size: 35px;
+  }
+  .review_body{
+    font-size: 14px;
   }
 }
 
