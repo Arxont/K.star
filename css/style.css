@@ -6,7 +6,6 @@ body {
  opacity: 0;
 }
 .fp-scroller {
-  overflow: hidden;
   min-height: 100%;
   transition: transform 300ms !important;
 }
