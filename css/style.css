@@ -1043,6 +1043,7 @@ height: auto;
     height: fit-content;
   }
   .specialist_card{
+    height: 100vh;
     width: 80%;
     margin: 20px 0 20px;
   }
