@@ -306,7 +306,50 @@ display: none;
   width: 32%;
 }
 
-
+.advantages_card{
+  height: 200px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+border-style: solid;
+border-radius: 10px;
+margin: 25px auto 25px;
+align-items: center;
+}
+.advantages_txt{
+  text-align: start;
+  width: 60%;
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0 30px 0;
+}
+.advantages_img_container{
+  width: 20%;
+  height: 50%;
+  display: flex;
+  align-self: flex-end;
+  border-radius: 5px;
+  background-color: #ff7400;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.advantages_img_1{
+  background-image: url("../src/2(1).png");
+}
+.advantages_img_2{
+  background-image: url("../src/2(2).png");
+}
+.advantages_img_3{
+  background-image: url("../src/2(3).png");
+}
+.advantages_img{
+  height: 50%;
+  width: 100%;
+  border-radius: 5px;
+  background-color: orangered;
+}
 /* section 2*/
 
 .section_2_container{
@@ -606,6 +649,9 @@ display: none;
 }
 .specialist_skills {
   background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
     text-align: start;
     border-radius: 10px;
     font-size: 15px;

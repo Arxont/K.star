@@ -6,6 +6,7 @@ var myFullpage = new fullpage("#fullpage", {
     "white",
     "rgb(22,37,56)",
     "white",
+    "rgb(22,37,56)",
     "white"
   ],
   scrollOverflow: true,
