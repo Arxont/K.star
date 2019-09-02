@@ -17,9 +17,7 @@
   margin-right: auto;
   padding-right: 8px;
   padding-left: 8px;
-  height: 100%;
-  height: -webkit-fill-available;
-  height: -moz-available; 
+
 }
 
 .container-fluid {

@@ -557,7 +557,10 @@ display: none;
 
 .section_5_img {
   width: 40%;
-  
+  min-height: 50px; 
+}
+.hidden_desctop{
+  display: none;
 }
 
 /* section 6*/
@@ -594,7 +597,6 @@ display: none;
           align-items: center;
 }
 .specialist_name {
-  color: white;
   font-size: 18px;
 }
 .specialist_position {
@@ -781,7 +783,12 @@ height: 100px;
 }
 @media (max-width: 767px){
   
-  
+  .hidden_desctop{
+display: block;
+  }
+  .hidden_mobile{
+display: none;
+  }
  
   .modal {
     position: fixed;
