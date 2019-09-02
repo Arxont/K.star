@@ -2,11 +2,11 @@ var myFullpage = new fullpage("#fullpage", {
   sectionsColor: [
     "rgb(22,37,56)",
     "white",
-    "rgb(22,37,56)",
     "white",
-    "rgb(22,37,56)",
     "white",
-    "rgb(22,37,56)",
+    "white",
+    "white",
+    "white",
     "white"
   ],
   scrollOverflow: true,
