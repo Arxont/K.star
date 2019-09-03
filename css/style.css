@@ -46,7 +46,20 @@ body {
 
 
 
-
+.advantages_popUp{
+  position: absolute;
+  width: 0;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: white;
+  overflow-y: auto;
+  transition: 0.5s;
+}
 
 
 .iScrollIndicator{
@@ -67,7 +80,9 @@ body {
 .slider_content {
   text-align: center;
 }
-
+.add_pointer{
+  cursor: pointer;
+}
 .orange_color {
   color: #ff7400;
 }
@@ -363,6 +378,7 @@ display: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 .advantages_card{
   height: 150px;

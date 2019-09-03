@@ -15,13 +15,46 @@ var myFullpage = new fullpage("#fullpage", {
 });
 
 
-function openNav() {
+function openModal() {
   document.getElementById("modal").style.height = "100%";
 }
 
-function closeNav() {
+function closeModal() {
   document.getElementById("modal").style.height = "0%";
 }
+
+function openIT() {
+  document.getElementById("iT").style.width = "400px";
+  document.getElementById("iT").style.borderStyle = "solid";
+}
+
+function closeIT() {
+  document.getElementById("iT").style.width = "0px";
+  document.getElementById("iT").style.borderStyle = "none";
+}
+
+function openDays() {
+  document.getElementById("days").style.width = "400px";
+  document.getElementById("days").style.borderStyle = "solid";
+}
+
+function closeDays() {
+  document.getElementById("days").style.width = "0px";
+  document.getElementById("days").style.borderStyle = "none";
+}
+
+function openHard() {
+  document.getElementById("hard").style.width = "400px";
+  document.getElementById("hard").style.borderStyle = "solid";
+}
+
+function closeHard() {
+  document.getElementById("hard").style.width = "0px";
+  document.getElementById("hard").style.borderStyle = "none";
+}
+
+
+
 /*
 var modal = document.getElementById("Modal");
 var btn = document.getElementsByClassName("Btn");
