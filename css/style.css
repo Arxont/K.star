@@ -4,7 +4,7 @@ body {
 
 
 .iScrollIndicator{
-/* opacity: 0;*/
+ opacity: 0;
 }
 .fp-scroller {
   min-height: 100%;
@@ -767,9 +767,7 @@ align-items: center;
 }
 
 @media (max-height: 1100px) {
-  .title_padding{
-  /*  padding: 1% 0 1%;*/
-  }
+ 
 
 
   .logo {
@@ -1034,70 +1032,6 @@ height: auto;
   height: 100%;
   }
 
-
-
-
-
-
-  .containerQ {
-    overflow-x: auto;
-    white-space: nowrap;
-    display: flex;
-    flex-direction:column;
-    position: relative;
-    width: 80%;
-    margin: auto;
-  height: 100%;
-  }
-  
-  
-  /* спеки для сафарей, новых хромов и ваще  из 2018го */
-  .snap {
-    scroll-snap-type: y mandatory !important; 
-    -webkit-overflow-scrolling: touch !important; /*для ябла*/
-  }
-  
-  .snap > div {
-    scroll-snap-align: center !important;
-  }
-  
-  
-  
-  /* привет из 2015го для фарйфоксов и всего такого*/
-  .snap {
-    scroll-snap-type: mandatory !important;
-    -ms-scroll-snap-type: mandatory !important;
-    scroll-snap-points-x: repeat(100%) !important;
-    -ms-scroll-snap-points-x: repeat(100%) !important;
-  }
-  
-  
-  
- 
-  
-  .containerQ > div {
-    min-width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    font-size: 20px;
-  }
-  
-  .content_1 {
-    background-color: #e34747;
-  }
-  
-  .content_2 {
-    background-color: #5ab92c;
-  }
-.content_3{
-  background-color: blue;
-}
-
-  
   .specialist_card{
     height: 100vh;
     width: 100%;
