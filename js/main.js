@@ -15,7 +15,6 @@ var myFullpage = new fullpage("#fullpage", {
 });
 
 
-
 function openNav() {
   document.getElementById("modal").style.height = "100%";
 }
