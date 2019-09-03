@@ -4,7 +4,7 @@ body {
 
 
 .iScrollIndicator{
- opacity: 0;
+/* opacity: 0;*/
 }
 .fp-scroller {
   min-height: 100%;
