@@ -707,7 +707,6 @@ align-items: center;
   background-image: url("../src/vacancyBackground.jpg");
   background-size: cover;
   background-position: center center;
-
   -webkit-box-shadow: inset 0 0 0 1000px rgba(12, 28, 102, 0.4);
   box-shadow: inset 0 0 0 1000px rgba(46, 49, 63, 0.9);
 }
@@ -829,6 +828,11 @@ height: 100px;
   .review_body{
     font-size: 13px;
   }
+}
+@media (max-height: 400px){
+ .hide_in_small_mobile{
+   display: none;
+ }
 }
 
 @media (max-width: 1200px){
