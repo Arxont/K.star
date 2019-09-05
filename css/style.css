@@ -10,8 +10,6 @@ body {
   transition: transform 300ms !important;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .slider_content {
