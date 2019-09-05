@@ -28,6 +28,7 @@ body {
   margin: 0;
   text-align: center;
   font-size: 40px;
+  padding: 0 0 1%;
 }
 
 .modal {
@@ -371,7 +372,7 @@ align-items: center;
 }
 .huge_txt {
   color: #ff7400;
-  font-size: 350px;
+  font-size: 340px;
   font-weight: 700;
   margin: 0;
   width: 40%;
@@ -628,7 +629,6 @@ align-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-          margin-top: 5%;
 }
 .specialist_card {
   width: 30%; 
@@ -874,7 +874,6 @@ display: none;
 
   .title_padding{
     font-size: 20px;
-    padding:2% 0 2%;
   }
   .section_1_container{
     height: 100%;
