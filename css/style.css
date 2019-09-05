@@ -715,16 +715,7 @@ align-items: center;
   font-size: 41px;
 }
 
-.footer_button_wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: relative;
-  height: 100px;
-}
+
 .section_7_footer {
   width: 100%;
 }
@@ -933,6 +924,8 @@ display: none;
   
   .submit_button{
     height: 70px;
+    display: flex;
+  align-self: center;
   }
   .button_content{
 height: 50px;
@@ -1053,6 +1046,9 @@ width: 80%;
   }
   .section_7_subTitle{
     font-size: 16px;
+  }
+  .footer_button{
+    display: initial;
   }
   .section_7_footer_title{
     font-size: 20px;
