@@ -750,7 +750,7 @@ align-items: center;
 
 @media (max-height: 1100px) {
  
-
+/*
 
   .logo {
     height: 100px;
@@ -777,6 +777,7 @@ align-items: center;
   .header_subTitle_font {
     font-size: 13px;
   }
+  */
   .mobile_section_1_wrapper {
     margin-bottom: 0;
   }
