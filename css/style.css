@@ -7,9 +7,18 @@ body {
 }
 .fp-scroller {
   min-height: 100%;
+  -webkit-transition: -webkit-transform 300ms !important;
+  transition: -webkit-transform 300ms !important;
+  -o-transition: transform 300ms !important;
   transition: transform 300ms !important;
+  transition: transform 300ms, -webkit-transform 300ms !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .slider_content {
@@ -38,6 +47,8 @@ body {
   overflow: auto;
   height: 0%;
   overflow-y: auto;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -174,9 +185,15 @@ height: 100%;;
 .header_menu {
   width: 70%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .section_1_header {
   display: -webkit-box;
@@ -223,7 +240,13 @@ height: 100%;;
   margin-bottom: -5px;
 }
 .side_img {
-  width: 60%;
+  width: 50%;
+  max-height: 800px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-item-align: center;
+    align-self: center;
 }
 
 .menu_title {
@@ -247,6 +270,8 @@ height: 100%;;
   display: none;
 }
 .submit_button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   background-color: transparent;
   border: none;
@@ -309,20 +334,33 @@ display: none;
 }
 .advantages_container{
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
 }
 .advantages_card{
   height: 150px;
   width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 border-style: solid;
 border-radius: 10px;
 margin: 25px auto 25px;
-align-items: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 }
 .advantages_txt{
   text-align: start;
@@ -335,8 +373,11 @@ align-items: center;
 .advantages_img_container{
   width: 20%;
   height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   border-radius: 5px 0 5px;
   background-color: #ff7400;
   background-repeat: no-repeat;
@@ -860,6 +901,8 @@ display: none;
     overflow: auto;
     height: 0%;
     overflow-y: auto;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
   }
   
@@ -925,8 +968,11 @@ display: none;
   
   .submit_button{
     height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   }
   .button_content{
 height: 50px;
