@@ -223,7 +223,7 @@ height: 100%;;
   margin-bottom: -5px;
 }
 .side_img {
-  width: 30%;
+  width: 60%;
 }
 
 .menu_title {
@@ -631,7 +631,7 @@ align-items: center;
           align-items: center;
 }
 .specialist_card {
-  width: 60%; 
+  width: 30%; 
 }
 
 .specialist_img_container {
