@@ -257,7 +257,7 @@ display: flex;
 }
 .menu_subTitle {
   color: white;
-  font-size: 46px;
+  font-size: 40px;
   font-weight: bolder;
 }
 .header_subTitle_font {
@@ -697,6 +697,10 @@ margin: 25px auto 25px;
 .specialist_position {
   color: #ff7400;
   font-size: 16px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 .specialist_skills {
@@ -790,53 +794,7 @@ margin: 25px auto 25px;
   color: white;
 }
 
-@media (max-height: 1100px) {
-  .mobile_section_1_wrapper {
-    margin-bottom: 0;
-  }
-  
-  .button_content{
-width: 340px;
-height: 100px;
-  }
- 
-  .review_img{
-    height: 40px;
-    width: 40px;
-  }
-  .review_body{
-    padding-top: 20px;
-    font-size: 15px;
-  }
-  .author_column_1 > p {
-    margin: 0;
-    margin-bottom: 5px;
-    font-size:12px;
-  }
-  .author_column_2 > p {
-    margin: 0;
-    margin-bottom: 5px;
-    font-size:12px;
-  }
-   
-  .specialist_img{
-    height: 250px;
-    width:250px;
-  }
-}
-@media (max-height: 700px){
-  .title_padding{
-    font-size: 35px;
-  }
-  .review_body{
-    font-size: 13px;
-  }
-}
-@media (max-height: 400px){
- .hide_in_small_mobile{
-   display: none;
- }
-}
+
 
 @media (max-width: 992px){
   .hidden_tablet{
@@ -901,13 +859,61 @@ height: 100px;
   height: 200px;
   width: 200px;
 }
-.specialist_position{
-  height: 40px;
-}
+
 .section_7_subTitle {
   font-size: 31px;
 }
 }
+
+@media (max-height: 800px) {
+  .mobile_section_1_wrapper {
+    margin-bottom: 0;
+  }
+  
+  .huge_txt{
+    font-size: 240px;
+  }
+  .button_content{
+width: 340px;
+height: 100px;
+  }
+ 
+  .review_img{
+    height: 40px;
+    width: 40px;
+  }
+  .review_body{
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .author_column_1 > p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size:12px;
+  }
+  .author_column_2 > p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size:12px;
+  }
+  .title_padding{
+    font-size: 35px;
+  }
+  .review_body{
+    font-size: 13px;
+  }
+  .specialist_img{
+    height: 250px;
+    width:250px;
+  }
+}
+
+@media (max-height: 400px){
+ .hide_in_small_mobile{
+   display: none;
+ }
+}
+
 @media (max-width: 768px){
   .advantages_card{
     width: 80%;
