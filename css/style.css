@@ -1051,14 +1051,6 @@ button:focus {
     height: 50px;
   }
 
-  .section_4_body_img_container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
   .section_4_body_img {
     width: 150px;
   }
