@@ -8,7 +8,7 @@
   <meta name="author" content="Feid" />
   <meta name="keywords" content="HTML" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
   <link rel="shortcut icon" type="image/ico" href="./favicon.ico" />
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css" />
@@ -27,10 +27,10 @@
       </div>
       <p class="modal_title orange_color">Найдем специалиста в мгновение ока!</p>
       <p class="modal_subtitle">Напишите свои контактные данные и мы свяжемся с вами</p>
-      <form class="send_form"  action="http://80.211.107.117/sales/sales-bot.php" method="POST">
-        <input type="email" name="user_email" placeholder="E-mail" required/>
-        <input type="text" name="user_name" placeholder="Имя" required/>
-        <input type="tel" name="user_phone" placeholder="Ваш телефон"   required/>
+      <form class="send_form" action="http://80.211.107.117/sales/sales-bot.php" method="POST">
+        <input type="email" name="user_email" placeholder="E-mail" required />
+        <input type="text" name="user_name" placeholder="Имя" required />
+        <input type="tel" name="user_phone" placeholder="Ваш телефон" required />
         <textarea name="user_vacancy" placeholder="Название или ссылка на описание вакансии" required></textarea>
         <button class="modal_button" type="submit">Отправить письмо</button>
       </form>
@@ -48,30 +48,31 @@
                   <div class="contacts">
                     <span class="contacts_border"><img class="contacts_img" src="./src/phone.png" alt="img" /><span
                         class="contacts_info">+7 (499) 367-75-64</span>
-                      <img class="contacts_img" src="./src/mail.png" alt="img" /><span class="contacts_info">r@star-staff.ru
-                       </span></span>
+                      <img class="contacts_img" src="./src/mail.png" alt="img" /><span
+                        class="contacts_info">r@star-staff.ru
+                      </span></span>
                   </div>
                 </header>
-                  <article class="section_1_body">
-                    <div>
-                      <p class="menu_title">
-                        Кадровое агентство "Стар-Стафф"
-                      </p>
-                      <p class="menu_subTitle">
-                        Быстро подберем IT-специалиста,
-                      </p>
+                <article class="section_1_body">
+                  <div>
+                    <p class="menu_title">
+                      Кадровое агентство "Стар-Стафф"
+                    </p>
+                    <p class="menu_subTitle">
+                      Быстро подберем IT-специалиста,
+                    </p>
 
-                      <p class="menu_subTitle header_subTitle_font">
-                        ПОЛНОСТЬЮ СООТВЕТСТВУЮЩЕГО ВАШЕМУ ВЫБОРУ
-                      </p>
-                     
-                    </div>
-                  <img class="section_1_body_img" src="./src/section_1_main.png" alt="find" /> 
-                  
-                  </article>
-                  <button class="Btn submit_button footer_button" onclick="openModal()"  type="button">
-                    <div class="button_content">Связаться с нами</div>
-                  </button>
+                    <p class="menu_subTitle header_subTitle_font">
+                      ПОЛНОСТЬЮ СООТВЕТСТВУЮЩЕГО ВАШЕМУ ВЫБОРУ
+                    </p>
+
+                  </div>
+                  <img class="section_1_body_img" src="./src/section_1_main.png" alt="find" />
+
+                </article>
+                <button class="Btn submit_button footer_button" onclick="openModal()" type="button">
+                  <div class="button_content">Связаться с нами</div>
+                </button>
               </div>
               <img class="side_img" src="./src/section_1_main.png" alt="find" />
             </div>
@@ -81,82 +82,87 @@
       </div>
     </section>
     <section class="section slider_content">
-        <div class="container">
-            <div class="row ">
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                  <h2 class="title_padding orange_color">
-                      Наши преимущества
-                    </h2>
-                    <article class="slide" data-anchor="slide1">
-                    <div class="advantages_container">
-<div class="advantages_card">
-  <p class="advantages_txt">Говорим с разработчиками на одном языке, <span class="orange_color">потому что сами выходцы из IT</span></p>
-  <div class="advantages_img_container advantages_img_1">
-</div>
-</div>
-</div>
-</article>
-<article class="slide" data-anchor="slide1">
-<div class="advantages_container">
-<div class="advantages_card">
-    <p class="advantages_txt">Представляем первых кандидатов, прошедших <span  class="orange_color">2 наших интервью</span>, в течении <span onclick="openDays()" class="orange_color add_pointer">2 дней после запуска</span></p>
-    <div class="advantages_img_container advantages_img_2">
-  </div>
-  </div>
-</div>
-</article>
-<article class="slide" data-anchor="slide1">
-  <div class="advantages_container">
-  <div class="advantages_card">
-      <p class="advantages_txt">Успешно закрываем <span class="orange_color">сложные и редкие позиции</span></p>
-      <div class="advantages_img_container advantages_img_3">
-    </div>
-    </div>
-  </div> </article>
-                </div>
+      <div class="container">
+        <div class="row ">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <h2 class="title_padding orange_color">
+              Наши преимущества
+            </h2>
+            <article class="slide" data-anchor="slide1">
+              <div class="section_2_container">
+                <div class="advantages_card">
+                  <p class="advantages_txt">Говорим с разработчиками на одном языке, <span class="orange_color">потому
+                      что сами выходцы из IT</span></p>
+                  <div class="advantages_img_container advantages_img_1">
+                  </div>
                 </div>
               </div>
+            </article>
+            <article class="slide" data-anchor="slide1">
+              <div class="section_2_container">
+                <div class="advantages_card">
+                  <p class="advantages_txt">Представляем первых кандидатов, прошедших <span class="orange_color">2 наших
+                      интервью</span>, в течении <span onclick="openDays()" class="orange_color add_pointer">2 дней
+                      после запуска</span></p>
+                  <div class="advantages_img_container advantages_img_2">
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="slide" data-anchor="slide1">
+              <div class="section_2_container">
+                <div class="advantages_card">
+                  <p class="advantages_txt">Успешно закрываем <span class="orange_color">сложные и редкие позиции</span>
+                  </p>
+                  <div class="advantages_img_container advantages_img_3">
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
 
     </section>
     <section class="section">
-     <div class="container">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <div class="section_2_container">
-              <h2 class="title_padding orange_color">
-                После заключения договора с вами мы найдем специалиста за
-              </h2>
-              <article class="section_2_body_container">
-                <p class="huge_txt">5</p>
-                <div class="background_img_container">
-                  <span class="section_2_txt1 orange_color">собеседований</span>
-                  <span class="section_2_txt2 orange_color">или 20 рабочих дней</span>
-                </div>
-              </article>
-              <footer class="section_2_footer_container">
-                <div class="list_img_container">
-                  <img class="list_img" src="./src/section_2_body_1.png"  alt="find"/>
-                  <img class="list_img" src="./src/section_2_body_2.png" alt="think"/>
-                </div>
-                <div class="section_2_list_container ">
-                  <p>Дополнительно предоставим:</p>
-                  <ul class="section_2_list">
-                    <li>
-                      подробный и понятный
-                      <span class="orange_color">срез рынка</span>;
-                    </li>
-                    <li>
-                      <span class="orange_color">отчет</span> о проделанной
-                      работе;
-                    </li>
-                    <li>
-                      <span class="orange_color">советы</span>, которые
-                      помогут улучшить оффер.
-                    </li>
-                  </ul>
-                </div>
-              </footer>
-            </div>
-         </div>
+      <div class="container">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="section_3_container">
+            <h2 class="title_padding orange_color">
+              После заключения договора с вами мы найдем специалиста за
+            </h2>
+            <article class="section_3_body_container">
+              <p class="huge_txt">5</p>
+              <div class="background_img_container">
+                <span class="section_3_txt1 orange_color">собеседований</span>
+                <span class="section_3_txt2 orange_color">или 20 рабочих дней</span>
+              </div>
+            </article>
+            <footer class="section_3_footer_container">
+              <div class="list_img_container">
+                <img class="list_img" src="./src/section_3_body_1.png" alt="find" />
+                <img class="list_img" src="./src/section_3_body_2.png" alt="think" />
+              </div>
+              <div class="section_3_list_container ">
+                <p>Дополнительно предоставим:</p>
+                <ul class="section_3_list">
+                  <li>
+                    подробный и понятный
+                    <span class="orange_color">срез рынка</span>;
+                  </li>
+                  <li>
+                    <span class="orange_color">отчет</span> о проделанной
+                    работе;
+                  </li>
+                  <li>
+                    <span class="orange_color">советы</span>, которые
+                    помогут улучшить оффер.
+                  </li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+        </div>
       </div>
     </section>
     <section class="section">
@@ -167,31 +173,34 @@
               <span class="orange_color">Работайте с профессионалами в поиске</span>
               <span>IT-кадров</span>
             </h2>
-            <article class="section_3_container">
-              <ul class="section_3_list">
-                <li class="section_3_list_item">
-                  <img class="section_3_img" src="./src/section_3_list_1.png" alt="list_img"/><span class="section_3_txt">Нанимаем в свой штат
+            <article class="section_4_container">
+              <ul class="section_4_list">
+                <li class="section_4_list_item">
+                  <img class="section_4_img" src="./src/section_4_list_1.png" alt="list_img" /><span
+                    class="section_4_txt">Нанимаем в свой штат
                     «технарей» : т.е. тех, у кого есть
                     образование либо бэкграунд в IT. А уже после обучаем их IT
                     - рекрутменту. Сейчас в нашей команде 37 таких
                     специалистов.
                   </span>
                 </li>
-                <li class="section_3_list_item">
-                  <img class="section_3_img" src="./src/section_3_list_2.png" alt="list_img"/><span class="section_3_txt">Даем вам доступ к
+                <li class="section_4_list_item">
+                  <img class="section_4_img" src="./src/section_4_list_2.png" alt="list_img" /><span
+                    class="section_4_txt">Даем вам доступ к
                     собственной базе, где содержится почти
                     полмиллиона CV потенциальных кандидатов. Эту базу мы
                     собирали 11 лет, с момента основания компании.
                   </span>
                 </li>
-                <li class="section_3_list_item">
-                  <img class="section_3_img" src="./src/section_3_list_3.png"   alt="list_img"/><span class="section_3_txt">Умеем искать в непопулярных,
+                <li class="section_4_list_item">
+                  <img class="section_4_img" src="./src/section_4_list_3.png" alt="list_img" /><span
+                    class="section_4_txt">Умеем искать в непопулярных,
                     узкопрофильных,
                     малоизвестных местах.</span>
                 </li>
               </ul>
-              <aside class="section_3_body_img_container">
-                <img class="section_3_body_img" src="./src/section_3_main1.png" alt="img" />
+              <aside class="section_4_body_img_container">
+                <img class="section_4_body_img" src="./src/section_4_main.png" alt="img" />
               </aside>
             </article>
           </div>
@@ -204,7 +213,7 @@
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <h2 class=" title_padding orange_color">ОТЗЫВЫ:</h2>
             <article class="slide" data-anchor="slide1">
-              <div class="section_4_container">
+              <div class="section_5_container">
                 <div class="review_card hidden_tablet hidden_mobile hide_in_small_mobile">
                   <img class="review_img" src="./src/brackets.png" alt="brackets" />
                   <p class="review_body">
@@ -223,8 +232,7 @@
                     </div>
                     <div class="author_column_2">
                       <p class="review_author_position">Alpina Digital</p>
-                      <p><a class="misc_link" href="https://alpinadigital.ru"
-                          target="_blank">alpinadigital.ru</a></p>
+                      <p><a class="misc_link" href="https://alpinadigital.ru" target="_blank">alpinadigital.ru</a></p>
                     </div>
                   </div>
                 </div>
@@ -275,7 +283,7 @@
             </article>
 
             <article class="slide" data-anchor="slide2">
-              <div class="section_4_container">
+              <div class="section_5_container">
                 <div class="review_card hidden_tablet hidden_mobile hide_in_small_mobile">
                   <img class="review_img" src="./src/brackets.png" alt="brackets" />
                   <p class="review_body">
@@ -338,7 +346,7 @@
               </div>
             </article>
             <article class="slide" data-anchor="slide3">
-              <div class="section_4_container">
+              <div class="section_5_container">
                 <div class="review_card hidden_tablet hidden_mobile hide_in_small_mobile">
                   <img class="review_img" src="./src/brackets.png" alt="brackets" />
                   <p class="review_body">
@@ -397,7 +405,7 @@
                 </div>
               </div>
             </article>
-          -->
+            -->
           </div>
         </div>
       </div>
@@ -407,27 +415,27 @@
         <div class="row ">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <article class="slide" data-anchor="slide1">
-                <h2 class="title_padding">
-                    ЛЮБИМЫЕ <span class="orange_color">КЛИЕНТЫ</span>
-                  </h2>
-              <div class="section_5_container">
-                <img class="section_5_img" src="./src/clients/mail.png"  alt="clients"/>
-                <img class="section_5_img" src="./src/clients/nvidia.png" alt="clients"/>
-                <img class="section_5_img" src="./src/clients/gis.png" alt="clients"/>
-                <img class="section_5_img" src="./src/clients/megafon.png" alt="clients"/>
-                <img class="section_5_img" src="./src/clients/alfa.png" alt="clients"/>
-                <img class="section_5_img hidden_desktop" src="./src/clients/severstal.png" alt="clients"/>
+              <h2 class="title_padding">
+                ЛЮБИМЫЕ <span class="orange_color">КЛИЕНТЫ</span>
+              </h2>
+              <div class="section_6_container">
+                <img class="section_6_img" src="./src/clients/mail.png" alt="clients" />
+                <img class="section_6_img" src="./src/clients/nvidia.png" alt="clients" />
+                <img class="section_6_img" src="./src/clients/gis.png" alt="clients" />
+                <img class="section_6_img" src="./src/clients/megafon.png" alt="clients" />
+                <img class="section_6_img" src="./src/clients/alfa.png" alt="clients" />
+                <img class="section_6_img hidden_desktop" src="./src/clients/severstal.png" alt="clients" />
               </div>
             </article>
             <article class="slide" data-anchor="slide2">
-                <h2 class="title_padding">
-                    ЛЮБИМЫЕ <span class="orange_color">КЛИЕНТЫ</span>
-                  </h2>
-              <div class="section_5_container">
-                <img class="section_5_img" src="./src/clients/okko.png" alt="clients"/>
-                <img class="section_5_img" src="./src/clients/samsung.png" alt="clients"/>
-                <img class="section_5_img" src="./src/clients/ozon.png" alt="clients"/>
-                <img class="section_5_img hidden_mobile" src="./src/clients/severstal.png" alt="clients"/>
+              <h2 class="title_padding">
+                ЛЮБИМЫЕ <span class="orange_color">КЛИЕНТЫ</span>
+              </h2>
+              <div class="section_6_container">
+                <img class="section_6_img" src="./src/clients/okko.png" alt="clients" />
+                <img class="section_6_img" src="./src/clients/samsung.png" alt="clients" />
+                <img class="section_6_img" src="./src/clients/ozon.png" alt="clients" />
+                <img class="section_6_img hidden_mobile" src="./src/clients/severstal.png" alt="clients" />
               </div>
             </article>
           </div>
@@ -439,205 +447,170 @@
         <div class="row ">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <article class="slide" data-anchor="slide4">
-                <h2 class="title_padding">Наши лица в кружочках</h2>  
-            <div class="section_6_container"> 
+              <h2 class="title_padding">Наши лица в кружочках</h2>
+              <div class="section_7_container">
                 <div class="specialist_card ">
-                    <div class="specialist_img_container ">
-                        <picture>               
-                            <img  src="./src/team/klimovskiy1.png"
-                                  srcset="./src/team/klimovskiy2.png 2x"
-                                  alt="specialist"
-                                  class="specialist_img"
-                                  >
-                          </picture>
-                    </div>
-                    <p class="specialist_name">Климовский Аркадий</p>
-                    <p class="specialist_position">CEO</p>
-                    <ul class="specialist_skills">
-                      <li class="skills"><span>В прошлом разработчик, выпускник МехМата МГУ со средним баллом 4.98</span></li>
-                      <li class="skills"><span>Сейчас опытный ТимЛид, гуру IT-рекрутмента, неунывающий лидер всей команды Star-Staff</span>
-                      </li>
-                      <li class="skills"><span>Автор проекта «МегаПлатформа»: выстраивал автоматизацию массового найма для крупнейшего дистанционного банка России</span></li> 
-                    </ul>
+                  <div class="specialist_img_container ">
+                    <picture>
+                      <img src="./src/team/klimovskiy1.png" srcset="./src/team/klimovskiy2.png 2x" alt="specialist"
+                        class="specialist_img">
+                    </picture>
                   </div>
+                  <p class="specialist_name">Климовский Аркадий</p>
+                  <p class="specialist_position">CEO</p>
+                  <ul class="specialist_skills">
+                    <li class="skills"><span>В прошлом разработчик, выпускник МехМата МГУ со средним баллом 4.98</span>
+                    </li>
+                    <li class="skills"><span>Сейчас опытный ТимЛид, гуру IT-рекрутмента, неунывающий лидер всей команды
+                        Star-Staff</span>
+                    </li>
+                    <li class="skills"><span>Автор проекта «МегаПлатформа»: выстраивал автоматизацию массового найма для
+                        крупнейшего дистанционного банка России</span></li>
+                  </ul>
+                </div>
                 <div class="specialist_card hidden_mobile">
                   <div class="specialist_img_container">
-                      <picture>               
-                          <img  src="./src/team/serikov1.png"
-                                srcset="./src/team/serikov2.png 2x"
-                                alt="specialist"
-                                class="specialist_img"
-                                >
-                        </picture>
+                    <picture>
+                      <img src="./src/team/serikov1.png" srcset="./src/team/serikov2.png 2x" alt="specialist"
+                        class="specialist_img">
+                    </picture>
                   </div>
                   <p class="specialist_name">Сериков Денис</p>
                   <p class="specialist_position">CTO/СFO</p>
                   <ul class="specialist_skills">
                     <li class="skills"><span>Прошёл школу рекрутмента в Яндексе, занимался их стажировками</span></li>
                     <li class="skills"><span>Самостоятельно закрыл большое количество вакансий</span></li>
-                    <li class="skills"><span>Выпускник МехМата МГУ, опытный разработчик, говорит с кандидатами на одних языках</span></li>
+                    <li class="skills"><span>Выпускник МехМата МГУ, опытный разработчик, говорит с кандидатами на одних
+                        языках</span></li>
                   </ul>
                 </div>
-                
+
                 <div class="specialist_card hidden_tablet hidden_mobile">
-                    <div class="specialist_img_container ">
-                        <picture>               
-                            <img  src="./src/team/smirnov1.png"
-                                  srcset="./src/team/smirnov2.png 2x"
-                                  alt="specialist"
-                                  class="specialist_img"
-                                  >
-                          </picture>
-                    </div>
-                    <p class="specialist_name">Пётр Смирнов</p>
-                    <p class="specialist_position">Руководитель отдела/Teamlead рекрутмента</p>
-                    <ul class="specialist_skills">
-                      <li class="skills"><span>Более 100 закрытых вакансий в IT, успешное закрытие позиций уровня executive</span></li>
-                      <li class="skills"><span>Рекорд компании по зарплате за месяц</span>
-                      </li>
-                      <li class="skills"><span>Долгосрочное сотрудничество с заказчиками, неоднократное повторное обращение даже после переходов на другие проекты</span></li>
-                    </ul>
+                  <div class="specialist_img_container ">
+                    <picture>
+                      <img src="./src/team/smirnov1.png" srcset="./src/team/smirnov2.png 2x" alt="specialist"
+                        class="specialist_img">
+                    </picture>
                   </div>
-                
+                  <p class="specialist_name">Пётр Смирнов</p>
+                  <p class="specialist_position">Руководитель отдела/Teamlead рекрутмента</p>
+                  <ul class="specialist_skills">
+                    <li class="skills"><span>Более 100 закрытых вакансий в IT, успешное закрытие позиций уровня
+                        executive</span></li>
+                    <li class="skills"><span>Рекорд компании по зарплате за месяц</span>
+                    </li>
+                    <li class="skills"><span>Долгосрочное сотрудничество с заказчиками, неоднократное повторное
+                        обращение даже после переходов на другие проекты</span></li>
+                  </ul>
+                </div>
+
               </div>
             </article>
             <article class="slide" data-anchor="slide5">
-                <h2 class="title_padding">Наши лица в кружочках</h2>
-              <div class="section_6_container">
-                  <div class="specialist_card hidden_desktop">
-                      <div class="specialist_img_container">
-                          <picture>               
-                              <img  src="./src/team/serikov1.png"
-                                    srcset="./src/team/serikov2.png 2x"
-                                    alt="specialist"
-                                    class="specialist_img"
-                                    >
-                            </picture>
-                      </div>
-                      <p class="specialist_name">Сериков Денис</p>
-                      <p class="specialist_position">CTO/СFO</p>
-                      <ul class="specialist_skills">
-                        <li class="skills"><span>Прошёл школу рекрутмента в Яндексе, занимался их стажировками</span></li>
+              <h2 class="title_padding">Наши лица в кружочках</h2>
+              <div class="section_7_container">
+                <div class="specialist_card hidden_desktop">
+                  <div class="specialist_img_container">
+                    <picture>
+                      <img src="./src/team/serikov1.png" srcset="./src/team/serikov2.png 2x" alt="specialist"
+                        class="specialist_img">
+                    </picture>
+                  </div>
+                  <p class="specialist_name">Сериков Денис</p>
+                  <p class="specialist_position">CTO/СFO</p>
+                  <ul class="specialist_skills">
+                    <li class="skills"><span>Прошёл школу рекрутмента в Яндексе, занимался их стажировками</span></li>
                     <li class="skills"><span>Самостоятельно закрыл большое количество вакансий</span></li>
-                    <li class="skills"><span>Выпускник МехМата МГУ, опытный разработчик, говорит с кандидатами на одних языках</span></li>
+                    <li class="skills"><span>Выпускник МехМата МГУ, опытный разработчик, говорит с кандидатами на одних
+                        языках</span></li>
                   </ul>
-                    </div>
-                  <div class="specialist_card hidden_mobile">
-                      <div class="specialist_img_container ">
-                          <picture>               
-                              <img  src="./src/team/aqua1.png"
-                                    srcset="./src/team/aqua2.png 2x"
-                                    alt="specialist"
-                                    class="specialist_img"
-                                    >
-                            </picture>
-                      </div>
-                      <p class="specialist_name">Татьяна Аква</p>
-                      <p class="specialist_position">Руководитель отдела рекрутмента</p>
-                      <ul class="specialist_skills">
-                        <li class="skills"><span>7 лет в IT-рекрутменте и 130+ закрытых позиций, рекорд закрываемости - 79%</span></li>
-                        <li class="skills"><span>Выстроила эффективный отдел рекрутмента с отлаженными инструментами и методологиями, сократила срок закрытия типовых вакансий до 15-20 дней</span>
-                        </li>
-                        <li class="skills"><span>Нескольким бизнесам помогла закрыть основную часть IT-отдела, предмет обожания CIO и CTO :)
-                        </span></li>
-                      </ul>
-                    </div>
+                </div>
                 <div class="specialist_card hidden_mobile">
                   <div class="specialist_img_container ">
-                    <picture>               
-                      <img  src="./src/team/dozorova1.png"
-                            srcset="./src/team/dozorova2.png 2x"
-                            alt="specialist"
-                            class="specialist_img"
-                            >
+                    <picture>
+                      <img src="./src/team/aqua1.png" srcset="./src/team/aqua2.png 2x" alt="specialist"
+                        class="specialist_img">
+                    </picture>
+                  </div>
+                  <p class="specialist_name">Татьяна Аква</p>
+                  <p class="specialist_position">Руководитель отдела рекрутмента</p>
+                  <ul class="specialist_skills">
+                    <li class="skills"><span>7 лет в IT-рекрутменте и 130+ закрытых позиций, рекорд закрываемости -
+                        79%</span></li>
+                    <li class="skills"><span>Выстроила эффективный отдел рекрутмента с отлаженными инструментами и
+                        методологиями, сократила срок закрытия типовых вакансий до 15-20 дней</span>
+                    </li>
+                    <li class="skills"><span>Нескольким бизнесам помогла закрыть основную часть IT-отдела</span></li>
+                  </ul>
+                </div>
+                <div class="specialist_card hidden_mobile">
+                  <div class="specialist_img_container ">
+                    <picture>
+                      <img src="./src/team/dozorova1.png" srcset="./src/team/dozorova2.png 2x" alt="specialist"
+                        class="specialist_img">
                     </picture>
                   </div>
                   <p class="specialist_name">Мария Дозорова</p>
                   <p class="specialist_position">Руководитель отдела рекрутмента</p>
                   <ul class="specialist_skills">
-                    <li class="skills"><span>В прошлом глава отдела продаж, сейчас руководитель отдела рекрутмента</span></li>
-                    <li class="skills"><span>Опыт IT-рекрутменте 8 лет, 130+ закрытий, великолепная возвращаемость клиентов</span>
+                    <li class="skills"><span>В прошлом глава отдела продаж, сейчас руководитель отдела
+                        рекрутмента</span></li>
+                    <li class="skills"><span>Опыт IT-рекрутменте 8 лет, 130+ закрытий, великолепная возвращаемость
+                        клиентов</span>
                     </li>
-                    <li class="skills"><span>Автор внутренних обучающих митапов, внедренец инновационных методологий и инструментов IT-рекрутмента, за минуту может понять, подойдет ли сотрудник к нам в команду</span></li>
+                    <li class="skills"><span>Автор внутренних обучающих митапов, внедренец инновационных методологий и
+                        инструментов IT-рекрутмента</span></li>
                   </ul>
                 </div>
                 <div class="specialist_card hidden_tablet hidden_mobile">
-                    <div class="specialist_img_container ">
-                        <picture>               
-                            <img  src="./src/team/demina1.png"
-                                  srcset="./src/team/demina2.png 2x"
-                                  alt="specialist"
-                                  class="specialist_img"
-                                  >
-                          </picture>
-                    </div>
-                    <p class="specialist_name">Анна Дёмина</p>
-                    <p class="specialist_position">Teamlead рекрутмента</p>
-                    <ul class="specialist_skills">
-                      <li class="skills"><span>Рекорд компании - 5 офферов за день</span></li>
-                      <li class="skills"><span>Призы за активное участие в конференциях (Techrec19)</span>
-                      </li>
-                      <li class="skills"><span>100+ закрытых позиций в IT и десятки возвращающихся клиентов</span></li>
-                    </ul>
-                  </div>              
+                  <div class="specialist_img_container ">
+                    <picture>
+                      <img src="./src/team/demina1.png" srcset="./src/team/demina2.png 2x" alt="specialist"
+                        class="specialist_img">
+                    </picture>
+                  </div>
+                  <p class="specialist_name">Анна Дёмина</p>
+                  <p class="specialist_position">Teamlead рекрутмента</p>
+                  <ul class="specialist_skills">
+                    <li class="skills"><span>Рекорд компании - 5 офферов за день</span></li>
+                    <li class="skills"><span>Призы за активное участие в конференциях (Techrec19)</span>
+                    </li>
+                    <li class="skills"><span>100+ закрытых позиций в IT и десятки возвращающихся клиентов</span></li>
+                  </ul>
+                </div>
               </div>
             </article>
 
             <article class="slide" data-anchor="slide6">
-                <h2 class="title_padding">Наши лица в кружочках</h2>
-              <div class="section_6_container">
-                  <div class="specialist_card hidden_desktop">
-                      <div class="specialist_img_container ">
-                          <picture>               
-                              <img  src="./src/team/smirnov1.png"
-                                    srcset="./src/team/smirnov2.png 2x"
-                                    alt="specialist"
-                                    class="specialist_img"
-                                    >
-                            </picture>
-                      </div>
-                      <p class="specialist_name">Пётр Смирнов</p>
-                      <p class="specialist_position">Руководитель отдела/Teamlead рекрутмента</p>
-                      <ul class="specialist_skills">
-                        <li class="skills"><span>Более 100 закрытых вакансий в IT, успешное закрытие позиций уровня executive</span></li>
-                      <li class="skills"><span>Рекорд компании по зарплате за месяц</span>
-                      </li>
-                      <li class="skills"><span>Долгосрочное сотрудничество с заказчиками, неоднократное повторное обращение даже после переходов на другие проекты</span></li>
-                    </ul>
-                    </div>
-                  <div class="specialist_card hidden_mobile">
-                      <div class="specialist_img_container ">
-                        <picture>               
-                            <img  src="./src/team/kovrigina1.png"
-                                  srcset="./src/team/kovrigina2.png 2x"
-                                  alt="specialist"
-                                  class="specialist_img"
-                                  >
-                          </picture>
-                      </div>
-                      <p class="specialist_name">Елена Ковригина</p>
-                      <p class="specialist_position">Основатель компании</p>
-                      <ul class="specialist_skills">
-                        <li class="skills"><span>Выстраивал автоматизацию массового найма для крупнейшего дистанционного
-                            банка России. Проект «МегаПлатформа»</span></li>
-                        <li class="skills"><span>200+ закрытых вакансий в IT</span></li>
-                        <li class="skills"><span>50+ узкопрофильных вакансий</span></li>
-                      </ul>
-                    </div>
-
-               
+              <h2 class="title_padding">Наши лица в кружочках</h2>
+              <div class="section_7_container">
+                <div class="specialist_card hidden_desktop">
+                  <div class="specialist_img_container ">
+                    <picture>
+                      <img src="./src/team/smirnov1.png" srcset="./src/team/smirnov2.png 2x" alt="specialist"
+                        class="specialist_img">
+                    </picture>
+                  </div>
+                  <p class="specialist_name">Пётр Смирнов</p>
+                  <p class="specialist_position">Руководитель отдела/Teamlead рекрутмента</p>
+                  <ul class="specialist_skills">
+                    <li class="skills"><span>Более 100 закрытых вакансий в IT, успешное закрытие позиций уровня
+                        executive</span></li>
+                    <li class="skills"><span>Рекорд компании по зарплате за месяц</span>
+                    </li>
+                    <li class="skills"><span>Долгосрочное сотрудничество с заказчиками, неоднократное повторное
+                        обращение даже после переходов на другие проекты</span></li>
+                  </ul>
+                </div>
                 <div class="specialist_card hidden_mobile">
                   <div class="specialist_img_container ">
-                      <picture>               
-                          <img  src="./src/team/kydryakov1.png"
-                                srcset="./src/team/kydryakov2.png 2x"
-                                alt="specialist"
-                                class="specialist_img"
-                                >
-                        </picture>
+                    <picture>
+                      <img src="./src/team/kovrigina1.png" srcset="./src/team/kovrigina2.png 2x" alt="specialist"
+                        class="specialist_img">
+                    </picture>
                   </div>
-                  <p class="specialist_name">Ринат Кудряков</p>
-                  <p class="specialist_position">Партнёр</p>
+                  <p class="specialist_name">Елена Ковригина</p>
+                  <p class="specialist_position">Основатель компании</p>
                   <ul class="specialist_skills">
                     <li class="skills"><span>Выстраивал автоматизацию массового найма для крупнейшего дистанционного
                         банка России. Проект «МегаПлатформа»</span></li>
@@ -645,25 +618,23 @@
                     <li class="skills"><span>50+ узкопрофильных вакансий</span></li>
                   </ul>
                 </div>
-                <div class="specialist_card hidden_tablet hidden_mobile">
-                    <div class="specialist_img_container ">
-                        <picture>               
-                            <img  src="./src/team/zolotarev1.png"
-                                  srcset="./src/team/zolotarev2.png 2x"
-                                  alt="specialist"
-                                  class="specialist_img"
-                                  >
-                          </picture>
-                    </div>
-                    <p class="specialist_name">Михаил Золотарев</p>
-                    <p class="specialist_position">IT Teamlead</p>
-                    <ul class="specialist_skills">
-                      <li class="skills"><span>За время работы в компании написал более 30 000 строк кода автоматизации</span></li>
-                      <li class="skills"><span>Выстраивал инфраструктуру с нуля. Дважды.</span></li>
-                      <li class="skills"><span>Обучил более 50 рекрутеров</span></li>
-                    </ul>
+                <div class="specialist_card  hidden_mobile">
+                  <div class="specialist_img_container ">
+                    <picture>
+                      <img src="./src/team/zolotarev1.png" srcset="./src/team/zolotarev2.png 2x" alt="specialist"
+                        class="specialist_img">
+                    </picture>
                   </div>
-                
+                  <p class="specialist_name">Михаил Золотарев</p>
+                  <p class="specialist_position">IT Teamlead</p>
+                  <ul class="specialist_skills">
+                    <li class="skills"><span>За время работы в компании написал более 30 000 строк кода
+                        автоматизации</span></li>
+                    <li class="skills"><span>Выстраивал инфраструктуру с нуля. Дважды.</span></li>
+                    <li class="skills"><span>Обучил более 50 рекрутеров</span></li>
+                  </ul>
+                </div>
+
               </div>
             </article>
           </div>
@@ -672,44 +643,44 @@
     </section>
     <section class="section slider_content footer_background">
       <div class="container">
-        
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <div class="section_7_container">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="section_8_container">
 
 
-              <article class="section_7_body">
-                <h2 class="title_padding white_color">
-                  Мы предоставим вам первых<br> кандидатов на вакансию
-                </h2>
-                <p class="section_7_subTitle orange_color">
-                  Уже через двое суток!
-                </p>
-                <button class="submit_button footer_button"  onclick="openModal()" type="button">
-                  <div class="button_content">Связаться с нами</div>
-                </button>
-              </article>
- <footer class="section_7_footer">
-                <div class="footer_info_wrapper">
-                  <div class="section_7_contacts">
-                    <p class="section_7_footer_title">Контакты:</p>
-                    <p class="section_7_footer_txt">star-staff.ru</p>
-                    <p class="section_7_footer_txt">r@star-staff.ru</p>
-                    <p class="section_7_footer_txt">+7 (499) 367-75-64</p>
-                  </div>
-
-                  <div class="section_7_adres">
-                    <p class="section_7_footer_title">Адрес:</p>
-                    <p class="section_7_footer_txt">117036, Москва,</p>
-                    <p class="section_7_footer_txt">метро Академическая</p>
-                    <p class="section_7_footer_txt">
-                      проезд Черёмушкинский д. 5
-                    </p>
-                  </div>
+            <article class="section_8_body">
+              <h2 class="title_padding white_color">
+                Мы предоставим вам первых<br> кандидатов на вакансию
+              </h2>
+              <p class="section_8_subTitle orange_color">
+                Уже через двое суток!
+              </p>
+              <button class="submit_button footer_button" onclick="openModal()" type="button">
+                <div class="button_content">Связаться с нами</div>
+              </button>
+            </article>
+            <footer class="section_8_footer">
+              <div class="footer_info_wrapper">
+                <div class="section_8_contacts">
+                  <p class="section_8_footer_title">Контакты:</p>
+                  <p class="section_8_footer_txt">star-staff.ru</p>
+                  <p class="section_8_footer_txt">r@star-staff.ru</p>
+                  <p class="section_8_footer_txt">+7 (499) 367-75-64</p>
                 </div>
-              </footer>
 
-            </div>
+                <div class="section_8_adres">
+                  <p class="section_8_footer_title">Адрес:</p>
+                  <p class="section_8_footer_txt">117036, Москва,</p>
+                  <p class="section_8_footer_txt">метро Академическая</p>
+                  <p class="section_8_footer_txt">
+                    проезд Черёмушкинский д. 5
+                  </p>
+                </div>
+              </div>
+            </footer>
+
           </div>
+        </div>
       </div>
     </section>
   </div>
