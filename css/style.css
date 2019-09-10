@@ -1047,7 +1047,8 @@ button:focus {
   }
 
   .section_4_body_img {
-    width: 150px;
+    width: 100%;
+    height: 100%;
   }
   .section_4_txt {
     width: 80%;
