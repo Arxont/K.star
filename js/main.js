@@ -10,7 +10,6 @@ var myFullpage = new fullpage("#fullpage", {
     "white"
   ],
   scrollOverflow: true,
- /* responsiveHeight: 400,*/
   normalScrollElements: '.modal',
 });
 

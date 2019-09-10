@@ -532,6 +532,14 @@ button:focus {
   -ms-flex-align: center;
   align-items: center;
 }
+.section_4_body_img_container{
+  height: 100%;
+  width: 100%;
+  background-image: url("../src/section_4_main.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
 
 /* section  5*/
@@ -1049,8 +1057,9 @@ button:focus {
   }
 
   .section_4_body_img {
-    width: 100%;
-    height: 100%;
+    height: 200px;
+    width: auto;
+    display: none;
   }
   .section_4_txt {
     width: 80%;
