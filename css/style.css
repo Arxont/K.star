@@ -39,7 +39,9 @@ body {
   font-size: 40px;
   padding: 0 0 1%;
 }
-
+.mail_tele_links{
+  text-decoration: none;
+}
 .modal {
   position: fixed;
   z-index: 2;
@@ -771,7 +773,7 @@ button:focus {
   height: 50%;
 }
 
-.section_8_adres {
+.section_8_adress {
   text-align: start;
   width: 48%;
   height: 50%;
