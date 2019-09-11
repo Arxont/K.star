@@ -39,7 +39,7 @@ body {
   font-size: 40px;
   padding: 0 0 1%;
 }
-.mail_tele_links{
+.mail_tele_links {
   text-decoration: none;
 }
 .modal {
@@ -344,31 +344,6 @@ button:focus {
   width: 32%;
 }
 
-/*section 2*/
-
-.section_2_container {
-  height: 90vh;
-  display: flex;
-}
-.advantages_list{
-  font-size: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: start;
-}
-.advantages_list > li{
-  padding: 5px 10px 5px 0;
-}
-.section_2_img_container{
-  background-image: url("../src/2(1).png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-  height: 100%;
-  width: 40%;
-}
-
 /* section 3*/
 
 .section_3_container {
@@ -460,7 +435,7 @@ button:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 85%;
+  height: 90vh;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -469,7 +444,9 @@ button:focus {
   height: 98px;
   width: 98px;
 }
-
+.section_4_list {
+  width: 60%;
+}
 .section_4_list_item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -484,15 +461,14 @@ button:focus {
   -ms-flex-align: center;
   align-items: center;
 }
-.section_4_body_img_container{
+.section_4_body_img_container {
   height: 100%;
-  width: 100%;
+  width: 40%;
   background-image: url("../src/section_4_main.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
-
 
 /* section  5*/
 
@@ -795,7 +771,7 @@ button:focus {
   .huge_txt {
     font-size: 200px;
   }
- 
+
   .review_body {
     font-size: 15px;
   }
@@ -862,9 +838,6 @@ button:focus {
 }
 
 @media (max-width: 768px) {
- 
- 
-
   .hidden_desktop {
     display: block;
   }
@@ -960,16 +933,11 @@ button:focus {
     display: block;
     width: 50%;
   }
-  .section_2_container{
-    flex-direction: column;
-  }
-  .advantages_list{
+
+  .advantages_list {
     font-size: 16px;
   }
- 
-  .section_2_img_container{
-    width: 100%;
-  }
+
   .huge_txt {
     font-size: 150px;
   }
@@ -998,6 +966,7 @@ button:focus {
 
   .section_4_list {
     font-size: 15px;
+    width: 100%;
   }
   .section_4_list_item {
     -webkit-box-orient: initial;
@@ -1009,14 +978,8 @@ button:focus {
     width: 50px;
     height: 50px;
   }
-
-  .section_4_body_img {
-    height: 200px;
-    width: auto;
-    display: none;
-  }
-  .section_4_txt {
-    width: 80%;
+  .section_4_body_img_container {
+    width: 100%;
   }
 
   .review_img {
@@ -1050,7 +1013,7 @@ button:focus {
     width: 100%;
     height: 100%;
   }
-  .specialist_img_container{
+  .specialist_img_container {
     height: 40%;
   }
   .specialist_name {
