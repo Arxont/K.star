@@ -393,6 +393,7 @@ button:focus {
   -ms-flex-item-align: end;
   align-self: flex-end;
   border-radius: 0 5px 5px 0;
+  border-width: 1px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
