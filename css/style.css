@@ -654,8 +654,7 @@ button:focus {
 }
 
 .section_6_img {
-  width: 40%;
-  min-height: 50px;
+  width: 35%;
 }
 .hidden_desktop {
   display: none;
@@ -665,7 +664,7 @@ button:focus {
 
 .section_7_container {
   width: 100%;
-  height: 100%;
+  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1091,7 +1090,6 @@ button:focus {
   }
 
   .specialist_card {
-    height: 100%;
     width: 100%;
   }
   .specialist_img {
@@ -1106,6 +1104,7 @@ button:focus {
     font-size: 13px;
     width: 80%;
     margin: auto;
+    min-height: 150px;
   }
   .section_8_container {
     height: 100%;
