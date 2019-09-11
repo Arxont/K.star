@@ -371,6 +371,7 @@ button:focus {
   justify-content: space-between;
   border-style: solid;
   border-radius: 10px;
+  border-width: 3px;
   margin: 25px auto 25px;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -393,7 +394,6 @@ button:focus {
   -ms-flex-item-align: end;
   align-self: flex-end;
   border-radius: 0 5px 5px 0;
-  border-width: 1px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
