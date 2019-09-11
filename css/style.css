@@ -358,7 +358,7 @@ button:focus {
   text-align: start;
 }
 .advantages_list > li{
-  padding-top: 5px;
+  padding: 5px 10px 5px 0;
 }
 .section_2_img_container{
   background-image: url("../src/2(1).png");
