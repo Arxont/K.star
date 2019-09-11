@@ -897,9 +897,16 @@ button:focus {
 }
 
 @media (max-width: 768px) {
+  .advantages_card{
+    flex-direction: column;
+  }
  
   .advantages_txt {
     font-size: 15px;
+    width: 100%;
+  }
+  .advantages_img_container{
+    width: 100%;
   }
 
   .hidden_desktop {
