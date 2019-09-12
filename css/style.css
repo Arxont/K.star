@@ -420,6 +420,7 @@ button:focus {
 /*section 3*/
 .qq{
   height: 100vh;
+  background-color: red;
 }
 
 .section_professional_container {
