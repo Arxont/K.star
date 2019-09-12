@@ -625,6 +625,7 @@ button:focus {
   color: #ff7400;
   font-size: 16px;
   height: 40px;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
