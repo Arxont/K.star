@@ -405,6 +405,7 @@ button:focus {
   height: 50px;
   width: 50px;
 }
+/*
 .section_contract_txt {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -413,7 +414,7 @@ button:focus {
   -ms-flex-align: center;
   align-items: center;
 }
-
+*/
 /*section 3*/
 
 .section_professional_container {
@@ -439,17 +440,18 @@ button:focus {
   display: flex;
   margin: 10px 0 10px;
 }
-
+/*
 .section_professional_txt {
-  /*
+ 
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  */
+  
 }
+*/
 .section_professional_body_img_container {
   height: 100%;
   width: 40%;
