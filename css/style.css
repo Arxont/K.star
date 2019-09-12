@@ -404,6 +404,7 @@ button:focus {
 .list_img {
   height: 50px;
   width: 50px;
+  float:left;
 }
 /*
 .section_contract_txt {
