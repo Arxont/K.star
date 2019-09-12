@@ -403,7 +403,7 @@ button:focus {
 
 .list_img {
   height: 50px;
-  width: 50px !important;
+  width: 50px;
   float:left;
 }
 /*
@@ -822,10 +822,6 @@ button:focus {
     height: 200px;
     width: 200px;
   }
-  .list_img {
-    height: 50px;
-    width: 50px;
-  }
 }
 
 @media (max-height: 400px) {
@@ -942,10 +938,7 @@ button:focus {
     font-size: 15px;
   }
  
-  .list_img {
-    height: 25px;
-    width: 25px;
-  }
+
 .section_contract_txt{
 font-size: 15px;
 }
