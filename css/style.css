@@ -432,19 +432,23 @@ button:focus {
 .section_professional_list {
   width: 60%;
 }
+
 .section_professional_list_item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 10px 0 10px;
 }
 
 .section_professional_txt {
+  /*
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  */
 }
 .section_professional_body_img_container {
   height: 100%;
@@ -956,12 +960,14 @@ font-size: 15px;
     font-size: 15px;
     width: 100%;
   }
+  
   .section_professional_list_item {
     -webkit-box-orient: initial;
     -webkit-box-direction: initial;
     -ms-flex-direction: initial;
     flex-direction: initial;
   }
+  
   .section_professional_img {
     width: 50px;
     height: 50px;
