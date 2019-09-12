@@ -401,11 +401,7 @@ button:focus {
   margin: auto;
 }
 
-.list_img {
-  height: 50px;
-  width: 50px;
-  float:left;
-}
+
 /*
 .section_contract_txt {
   display: -webkit-box;
