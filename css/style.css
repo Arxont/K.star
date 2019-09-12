@@ -406,8 +406,9 @@ button:focus {
   margin-right: 5px;
 }
 .section_contract_txt{
- background-color: #fe6637;
  width: 80%;
+ display: flex;
+ align-items: center;
 }
 
 /*
