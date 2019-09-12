@@ -430,6 +430,7 @@ button:focus {
 .section_professional_img {
   height: 90px;
   width: 90px;
+  float: left;
 }
 .section_professional_list {
   width: 60%;
@@ -441,9 +442,8 @@ button:focus {
   display: flex;
   margin: 10px 0 10px;
 }
-/*
+
 .section_professional_txt {
- 
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -452,7 +452,7 @@ button:focus {
   align-items: center;
   
 }
-*/
+
 .section_professional_body_img_container {
   height: 100%;
   width: 40%;
