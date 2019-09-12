@@ -400,7 +400,11 @@ button:focus {
   display: flex;
   margin: auto;
 }
-
+.list_img{
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
 
 /*
 .section_contract_txt {
