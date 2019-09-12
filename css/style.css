@@ -403,16 +403,12 @@ button:focus {
 .list_img{
   height: 50px;
   width: 50px;
-  margin-right: 5px;
-}
-.section_contract_txt{
- width: 80%;
- display: flex;
- align-items: center;
 }
 
-/*
+
+
 .section_contract_txt {
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -420,7 +416,7 @@ button:focus {
   -ms-flex-align: center;
   align-items: center;
 }
-*/
+
 /*section 3*/
 
 .section_professional_container {
@@ -449,6 +445,7 @@ button:focus {
 }
 
 .section_professional_txt {
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -946,6 +943,10 @@ button:focus {
 
 .section_contract_txt{
 font-size: 15px;
+}
+.list_img{
+  width: 40px;
+  height: 40px;
 }
   .clients_container{
     display: flex;
