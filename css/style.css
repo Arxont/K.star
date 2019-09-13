@@ -403,12 +403,12 @@ button:focus {
 .list_img{
   height: 50px;
   width: 50px;
-  flex: 0 1;
 }
 
 
 
 .section_contract_txt {
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -432,7 +432,7 @@ button:focus {
 .section_professional_img {
   height: 90px;
   width: 90px;
-  flex: 0 1;
+  float: left;
 }
 .section_professional_list {
   width: 60%;
@@ -446,6 +446,7 @@ button:focus {
 }
 
 .section_professional_txt {
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -942,7 +943,6 @@ font-size: 15px;
 .list_img{
   width: 40px;
   height: 40px;
-  flex: 0 1;
 }
   .clients_container{
     display: flex;
