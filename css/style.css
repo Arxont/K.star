@@ -401,9 +401,9 @@ button:focus {
   margin: auto;
 }
 .list_img{
+  flex: 0 0;
   height: 50px;
   width: 50px;
-  flex: 0 0;
 }
 
 
@@ -430,9 +430,9 @@ button:focus {
   align-items: center;
 }
 .section_professional_img {
+  flex: 0 0;
   height: 90px;
   width: 90px;
-  flex: 0 0;
 }
 .section_professional_list {
   width: 60%;
@@ -941,9 +941,9 @@ button:focus {
 font-size: 15px;
 }
 .list_img{
+  flex: 0 0;
   width: 40px;
   height: 40px;
-  flex: 0 0;
 }
   .clients_container{
     display: flex;
