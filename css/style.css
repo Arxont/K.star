@@ -252,7 +252,7 @@ textarea {
   margin-bottom: -5px;
 }
 .side_img {
-  width: 50%;
+  width: 40%;
   max-height: 800px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -431,7 +431,7 @@ button:focus {
 .section_professional_body_img_container {
   height: 100%;
   width: 40%;
-  background-image: url("../src/section_professional_main.png");
+  background-image: url("../src/18959.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
