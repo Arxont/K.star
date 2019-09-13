@@ -443,6 +443,7 @@ button:focus {
   display: -ms-flexbox;
   display: flex;
   margin: 10px 0 10px;
+  width: 100%;
 }
 
 .section_professional_txt {
