@@ -356,7 +356,7 @@ button:focus {
 .section_contract_main_img{
   height: 100%;
   width: 40%;
-  background-image: url("../src/19729.jpg");
+  background-image: url("../src/19729.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -431,7 +431,7 @@ button:focus {
 .section_professional_body_img_container {
   height: 100%;
   width: 40%;
-  background-image: url("../src/18959.jpg");
+  background-image: url("../src/18959.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
