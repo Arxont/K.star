@@ -793,9 +793,7 @@ button:focus {
 }
 
 @media (max-height: 400px) {
-  .hide_in_small_mobile {
-    display: none;
-  }
+  
   .section{
     height: auto !important;
   }
