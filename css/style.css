@@ -796,6 +796,10 @@ button:focus {
   .hide_in_small_mobile {
     display: none;
   }
+  .section{
+    height: fit-content;
+    padding-bottom: 50px;
+  }
 }
 
 @media (max-width: 768px) {
