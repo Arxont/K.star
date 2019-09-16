@@ -799,6 +799,7 @@ button:focus {
   .section{
     height: fit-content;
     padding-bottom: 50px;
+    background-color: red;
   }
 }
 
