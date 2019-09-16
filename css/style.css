@@ -797,9 +797,23 @@ button:focus {
     display: none;
   }
   .section{
-    height: fit-content;
+    height: auto !important;
     padding-bottom: 50px;
-    background-color: red;
+  }
+  .section_specialist_container{
+    height: auto;
+  }
+  .section_contract_container{
+    height: 100%;
+  }
+  .section_contract_main_img{
+    min-height: 300px;
+  }
+  .section_professional_container{
+    height: 100%;
+  }
+  .section_professional_body_img_container{
+    min-height: 300px;
   }
 }
 
