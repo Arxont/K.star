@@ -801,7 +801,6 @@ button:focus {
   }
   .section{
     height: auto !important;
-    padding-bottom: 50px;
   }
   .section_specialist_container{
     height: auto;
