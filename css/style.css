@@ -5,6 +5,9 @@ body {
 .iScrollIndicator {
   opacity: 0;
 }
+.section{
+  padding-bottom: 0;
+}
 .fp-scroller {
   min-height: 100%;
   -webkit-transition: -webkit-transform 300ms !important;
