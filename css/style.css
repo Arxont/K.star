@@ -989,16 +989,19 @@ button:focus {
   .section_client_container{
     flex-direction: column;
     align-items: center;
+    flex-wrap: nowrap;
   }
 
- 
+  .section_client_img {
+    height: auto;
+  }
   .section_specialist_container {
     width: 100%;
     margin-top: 0;
   }
 
   .clients_wrapper {
-    width: 60%;
+    width: 45%;
   }
 
   .specialist_card {
