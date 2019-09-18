@@ -8,21 +8,6 @@ body {
 .section {
   padding-bottom: 0;
 }
-.fp-scroller {
-  min-height: 100%;
-  -webkit-transition: -webkit-transform 300ms !important;
-  transition: -webkit-transform 300ms !important;
-  -o-transition: transform 300ms !important;
-  transition: transform 300ms !important;
-  transition: transform 300ms, -webkit-transform 300ms !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
 
 .slider_content {
   text-align: center;
