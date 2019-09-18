@@ -547,7 +547,7 @@ button:focus {
   height: 90vh;
   margin: auto;
 }
-.clients_container {
+.clients_wrapper {
   width: 35%;
   display: flex;
   align-items: center;
@@ -940,9 +940,7 @@ button:focus {
     width: 40px;
     height: 40px;
   }
-  .clients_container {
-    width: 45%;
-  }
+  
   .section_professional_container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -988,13 +986,19 @@ button:focus {
     margin-bottom: 5px;
     font-size: 13px;
   }
-
-  .section_client_img {
-    height: auto;
+  .section_client_container{
+    flex-direction: column;
+    align-items: center;
   }
+
+ 
   .section_specialist_container {
     width: 100%;
     margin-top: 0;
+  }
+
+  .clients_wrapper {
+    width: 60%;
   }
 
   .specialist_card {
