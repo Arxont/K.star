@@ -187,6 +187,23 @@ textarea {
   text-decoration: none;
   cursor: pointer;
 }
+.noJs{
+  background-color:black;
+  color: white;
+  text-align: center;
+  
+  width: 50%;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  z-index: 5;
+  
+}
+
+.noJs > img{
+  width: 95%;
+  margin: auto;
+}
 
 /*    section 1      */
 .section_1_container {
@@ -1013,9 +1030,6 @@ button:focus {
   }
   .specialist_img_container {
     height: 40%;
-  }
-  .specialist_name {
-    margin: 10px 0 10px;
   }
 
   .specialist_skills {
