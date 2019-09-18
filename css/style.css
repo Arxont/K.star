@@ -807,22 +807,22 @@ button:focus {
     height: auto;
   }
   .section_contract_container {
-    height: 100%;
+    height: auto;
   }
   .section_contract_main_img {
     min-height: 300px;
   }
   .section_professional_container {
-    height: 100%;
+    height: auto;
   }
   .section_professional_body_img_container {
     min-height: 300px;
   }
   .section_review_container {
-    height: 100%;
+    height: auto;
   }
   .section_client_container{
-    height: 100%;
+    height: auto;
   }
 }
 
