@@ -105,7 +105,8 @@ textarea {
   border-style: solid;
   border-color: black;
   padding: 10px;
-  box-shadow: inset 0 0 2px 2px #888;
+  -webkit-box-shadow: inset 0 0 2px 2px #888;
+          box-shadow: inset 0 0 2px 2px #888;
   background: #fff;
 }
 textarea {
@@ -142,8 +143,7 @@ textarea {
   );
   background: -webkit-gradient(
     linear,
-    left top,
-    right top,
+    left top, right top,
     from(rgba(255, 255, 255, 0.1)),
     to(rgba(255, 255, 255, 0.5))
   );
@@ -371,6 +371,8 @@ button:focus {
 }
 .section_contract_list_wrapper {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .section_contract_main_img {
@@ -383,9 +385,16 @@ button:focus {
 }
 .section_contract_list_container {
   width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .section_contract_bonuses {
   font-weight: bolder;
@@ -393,6 +402,8 @@ button:focus {
   padding-left: 5%;
 }
 .section_contract_list_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-left: 5%;
 }
@@ -559,15 +570,20 @@ button:focus {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 100%;
   height: 90vh;
   margin: auto;
 }
 .clients_wrapper {
   width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .section_client_img {
   width: 100%;
@@ -619,9 +635,15 @@ button:focus {
   font-size: 16px;
   height: 40px;
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .specialist_skills {
   background-color: white;
@@ -939,7 +961,10 @@ button:focus {
   }
 
   .section_contract_list_wrapper {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .section_contract_main_img {
     width: 100%;
@@ -1007,9 +1032,15 @@ button:focus {
     font-size: 13px;
   }
   .section_client_container{
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 
   .section_client_img {
