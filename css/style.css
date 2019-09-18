@@ -821,6 +821,9 @@ button:focus {
   .section_review_container {
     height: 100%;
   }
+  .section_client_container{
+    height: 100%;
+  }
 }
 
 @media (max-width: 768px) {
