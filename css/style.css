@@ -877,6 +877,7 @@ button:focus {
 
   .title_padding {
     font-size: 20px;
+    padding: 2.5% 0 1%;
   }
   .header_menu {
     height: 100%;
