@@ -668,10 +668,9 @@ button:focus {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
+  height: 100%;
 }
 
 .footer_background {
