@@ -668,7 +668,7 @@ button:focus {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
   height: 100%;
 }
@@ -1056,7 +1056,7 @@ button:focus {
   }
   .section_contact_container {
     height: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .section_contact_subTitle {
     font-size: 16px;
