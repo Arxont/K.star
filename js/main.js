@@ -22,6 +22,7 @@ function closeModal() {
   document.getElementById("modal").style.height = "0%";
 }
 
+/*
 const fetchForm = document.getElementById("fetchForm");
 
 fetchForm.addEventListener("submit", function(i){
@@ -41,5 +42,5 @@ mode: 'no-cors',
 body:sParams
 })
 });
-
+*/
 
