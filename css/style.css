@@ -562,6 +562,7 @@ button:focus {
 }
 .clients_wrapper {
   width: 35%;
+  height: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -570,7 +571,9 @@ button:focus {
           align-items: center;
 }
 .section_client_img {
+  height: 100%;
   width: 100%;
+  object-fit: contain;
 }
 
 .hidden_desktop {
@@ -1027,9 +1030,7 @@ button:focus {
         flex-wrap: nowrap;
   }
 
-  .section_client_img {
-    height: auto;
-  }
+ 
   .section_specialist_container {
     width: 100%;
     margin-top: 0;
